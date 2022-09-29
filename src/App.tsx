@@ -2,6 +2,9 @@ import * as C from './App.styled';
 import IconLogo from './assets/images/icons/logo_svg.svg';
 import IconMenu from './assets/images/icons/icon_menu.svg';
 import IconArrow from './assets/images/icons/icon_seta.png';
+import Consulta1 from './assets/images/image_primconsulta.jpg';
+import Consulta2 from './assets/images/image_consulta.jpg';
+import Consulta3 from './assets/images/image_exames.jpg';
 
 const App = () => {
     return (
@@ -33,6 +36,51 @@ const App = () => {
                     <C.Image src={IconArrow} alt='' />
                 </C.IconArrow>
             </C.Home>
+
+            <C.Schedule>
+                <C.ScheduleSquare>
+                    <C.ImageAgenda src={Consulta1} alt='' />
+                    <C.ScheduleHeader>
+                        Primeira Consulta
+                    </C.ScheduleHeader>
+                    <C.ScheduleTopics>
+                        <li>Online ou presenciais</li>
+                        <li>De acordo com a sua preferência</li>
+                    </C.ScheduleTopics>
+                    <C.Button2>
+                        Agende sua consulta
+                    </C.Button2>
+                </C.ScheduleSquare>
+
+                <C.ScheduleSquare>
+                    <C.ImageAgenda src={Consulta2} alt='' />
+                    <C.ScheduleHeader>
+                        Retorno
+                    </C.ScheduleHeader>
+                    <C.ScheduleTopics>
+                        <li>A consulta de retorno é indispensável</li>
+                        <li>Agende agora o seu retorno</li>
+                    </C.ScheduleTopics>
+                    <C.Button2>
+                        Agende seu retorno
+                    </C.Button2>
+                </C.ScheduleSquare>
+
+                <C.ScheduleSquare>
+                    <C.ImageAgenda src={Consulta3} alt='' />
+                    <C.ScheduleHeader>
+                        Exames
+                    </C.ScheduleHeader>
+                    <C.ScheduleTopics>
+                    <li>Mais de 30 especialidades</li>
+                    <li>Agende rapidamento os seus próximos exames</li>
+                    </C.ScheduleTopics>
+                    <C.Button2>
+                        Agende sua consulta
+                    </C.Button2>
+                </C.ScheduleSquare>
+            </C.Schedule>
+
         </C.Container>
     );
 }

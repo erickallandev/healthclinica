@@ -3,15 +3,17 @@ import BGImage from './assets/images/image_home.jpg';
 
 export const Container = styled.div`
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 `;
 
 export const Home = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: calc(100vh - 40px);
+    height: 100vh;
     width: 100vw;
-    padding: 20px 25px;
     background-color: #0C5C31;
         &:before {
             content: "";
@@ -35,6 +37,9 @@ export const NavBar = styled.nav`
     justify-content: space-between;
     align-items: center;
     position: relative;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
 `;
 
 export const IconLogo = styled.div`
@@ -62,14 +67,14 @@ export const HomeHeader = styled.div`
     font-weight: 700;
     letter-spacing: 1.5px;
     color: #FFF;
-    margin: 0 20px;
+    margin: 0 40px;
 `;
 
 export const HomeText = styled.div`
     font-size: 1rem;
     font-weight: 400;
     color: #FFF;
-    margin: 0 20px;
+    margin: 0 40px;
 `;
 
 export const Button1 = styled.div`
@@ -82,11 +87,101 @@ export const Button1 = styled.div`
     color: #424242;
     font-weight: 700;
     font-size: 1rem;
+    margin: 0 30px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
 `;
 
 export const IconArrow = styled.div`
     width: 50px;
     margin: 0 auto;
+    margin-bottom: 40px;
     position: relative;
     filter: drop-shadow(0 0 2px #FFF);
+`;
+
+
+/* Estilizações da área de agenda */
+
+export const Schedule = styled.div`
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: #FFF;
+    margin-bottom: 100px;
+`;
+
+export const ScheduleSquare = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #000;
+    margin: 0 40px;
+    margin-top: 50px;
+    border-radius: 10px;
+    object-fit: cover;
+`;
+
+export const ImageAgenda = styled.img`
+    width: 80%;
+    object-fit: cover;
+    max-height: 200px;
+    opacity: 0.5;
+    position: absolute;
+    border-radius: 10px;
+`;
+
+export const ScheduleHeader = styled.div`
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-top: 10%;
+    position: relative;
+`;
+
+export const ScheduleTopics = styled.ul`
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    font-size: 0.8rem;
+    position: relative;
+`;
+
+export const Button2 = styled.div`
+    background-color: #FFF;
+    border-radius: 50px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #424242;
+    font-weight: 700;
+    font-size: 0.8rem;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
+    position: relative;
+`;
+
+
+
+/* Estilização das especialidades */
+
+export const Especialidades = styled.div`
+
+`;
+
+export const EspHeader = styled.div`
+    
+`;
+
+export const EspSub = styled.div`
+    
+`;
+
+export const EspContent = styled.div`
+    
+`;
+
+export const Espec = styled.div`
+    
 `;
