@@ -58,7 +58,7 @@ export const Content = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 60vh;
+    height: 350px;
     position: relative;
 `;
 
