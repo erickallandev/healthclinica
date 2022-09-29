@@ -58,7 +58,7 @@ export const Content = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 350px;
+    height: 80%;
     position: relative;
 `;
 
@@ -94,7 +94,7 @@ export const Button1 = styled.div`
 export const IconArrow = styled.div`
     width: 50px;
     margin: 0 auto;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     position: relative;
     filter: drop-shadow(0 0 2px #FFF);
 `;

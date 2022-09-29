@@ -31,11 +31,11 @@ const App = () => {
                     <C.Button1>
                         Agende agora o seu atendimento
                     </C.Button1>
-                </C.Content>
 
-                <C.IconArrow>
-                    <C.Image src={IconArrow} alt='' />
-                </C.IconArrow>
+                    <C.IconArrow>
+                        <C.Image src={IconArrow} alt='' />
+                    </C.IconArrow>
+                </C.Content>
             </C.Home>
 
             <C.Schedule>
