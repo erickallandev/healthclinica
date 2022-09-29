@@ -13,14 +13,15 @@ export const Home = styled.div`
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    max-height: 100vh;
     height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     background-color: #0C5C31;
         &:before {
             content: "";
             background-image: url(${BGImage});
             background-size: cover;
-            background-repeat: no-repeat;
             background-position: center;
             position: absolute;
             display: flex;
@@ -31,6 +32,7 @@ export const Home = styled.div`
             bottom: 0px;
             left: 0px;
             opacity: 0.3;
+            max-height: 100%;
             height: 100%;
         }
 `;
@@ -63,7 +65,7 @@ export const Content = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 80%;
+    height: 70%;
     position: relative;
     margin-bottom: 60px;
     margin-top: 40px;
@@ -217,7 +219,7 @@ export const Espec = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 0.8rem;
+    font-size: 1rem;
     padding: 6px 12px;
     margin-bottom: 10px;
     margin: 2px 5px;
