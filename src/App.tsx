@@ -7,11 +7,13 @@ import Consulta2 from './assets/images/image_consulta.jpg';
 import Consulta3 from './assets/images/image_exames.jpg';
 import ImageEsp from './assets/images/image_doctors.svg';
 import Icon_tel from './assets/images/icons/icon_tel.svg';
+import BGImage from './assets/images/image_home.jpg';
 
 const App = () => {
     return (
         <C.Container>
             <C.Home>
+                <C.ImageHome src={BGImage} alt='' />
                 <C.NavBar>
                     <C.IconLogo>
                         <C.Image src={IconLogo} alt='' />

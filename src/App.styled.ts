@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import BGImage from './assets/images/image_home.jpg';
 
 export const Container = styled.div`
     display: flex;
@@ -18,23 +17,7 @@ export const Home = styled.div`
     min-height: 100vh;
     width: 100vw;
     background-color: #0C5C31;
-        &:before {
-            content: "";
-            background-image: url(${BGImage});
-            background-size: cover;
-            background-position: center;
-            position: absolute;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            top: 0px;
-            right: 0px;
-            bottom: 0px;
-            left: 0px;
-            opacity: 0.3;
-            max-height: 100%;
-            height: 100%;
-        }
+    object-fit: cover;
 `;
 
 export const NavBar = styled.nav`
@@ -77,6 +60,14 @@ export const HomeHeader = styled.div`
     letter-spacing: 1.5px;
     color: #FFF;
     margin: 0 40px;
+`;
+
+export const ImageHome = styled.img`
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    position: absolute;
+    opacity: 0.3;
 `;
 
 export const HomeText = styled.div`
@@ -136,7 +127,7 @@ export const ImageAgenda = styled.img`
     width: 80%;
     object-fit: cover;
     max-height: 200px;
-    opacity: 0.5;
+    opacity: 0.6;
     position: absolute;
     border-radius: 10px;
     display: flex;
@@ -244,7 +235,7 @@ export const CentAtendimento = styled.div`
     flex-direction: column;
     background-color: #0C5C31;
     width: 100vw;
-    padding: 30px 0;
+    padding: 40px 0;
 `;
 
 export const Icon1 = styled.div`
