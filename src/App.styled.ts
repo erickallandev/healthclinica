@@ -230,3 +230,41 @@ export const EspImage = styled.div`
     width: 80%;
     margin: 30px 0;
 `;
+
+
+
+/* Central de atendimento */
+
+export const CentAtendimento = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0C5C31;
+    width: 100vw;
+    padding: 30px 0;
+`;
+
+export const Icon1 = styled.div`
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+`;
+
+export const AtendHeader = styled.div`
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 10px;
+`;
+
+export const AtendBody = styled.div`
+    width: 80vw;
+    font-size: 0.8rem;
+    color: #fff;
+    text-align: center;
+`;

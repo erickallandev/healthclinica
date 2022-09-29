@@ -6,6 +6,7 @@ import Consulta1 from './assets/images/image_primconsulta.jpg';
 import Consulta2 from './assets/images/image_consulta.jpg';
 import Consulta3 from './assets/images/image_exames.jpg';
 import ImageEsp from './assets/images/image_doctors.svg';
+import Icon_tel from './assets/images/icons/icon_tel.svg';
 
 const App = () => {
     return (
@@ -151,6 +152,21 @@ const App = () => {
                 </C.ListaEspecialidades>
                 </C.EspBody>
             </C.Especialidades>
+
+
+
+            <C.CentAtendimento>
+                <C.Icon1>
+                    <C.Image src={Icon_tel} alt='' />
+                </C.Icon1>
+                <C.AtendHeader>
+                    Central de atendimento
+                </C.AtendHeader>
+                <C.AtendBody>
+                    Para qualquer dúvida, tente o nosso canal de atendimento:<br />
+                    (84) 2525-2266 | (84) 2834-3838
+                </C.AtendBody>
+            </C.CentAtendimento>
 
         </C.Container>
     );
