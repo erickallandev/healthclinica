@@ -108,7 +108,7 @@ export const Schedule = styled.div`
     flex-direction: column;
     width: 100%;
     color: #FFF;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 `;
 
 export const ScheduleSquare = styled.div`
@@ -131,7 +131,10 @@ export const ImageAgenda = styled.img`
     opacity: 0.5;
     position: absolute;
     border-radius: 10px;
-`;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    `;
 
 export const ScheduleHeader = styled.div`
     font-weight: 700;
@@ -167,21 +170,57 @@ export const Button2 = styled.div`
 /* Estilização das especialidades */
 
 export const Especialidades = styled.div`
+    margin: 20px;
+    width: 100vw;
+    margin-bottom: 60px;
+`;
 
+export const EspBody = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 `;
 
 export const EspHeader = styled.div`
-    
+    text-align: center;
+    color: #424242;
+    font-size: 1.5rem;
+    font-weight: 500;
 `;
 
 export const EspSub = styled.div`
-    
+    text-align: center;
+    color: #424242;
+    font-size: 1rem;
+    font-weight: 400;
+`;
+
+export const ListaEspecialidades = styled.div`
+    display: flex;
 `;
 
 export const EspContent = styled.div`
-    
+    display: flex;
+    flex-direction: column;
 `;
 
 export const Espec = styled.div`
-    
+    border: 1px solid #424242;;
+    border-radius: 30px 30px 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    padding: 6px 12px;
+    margin-bottom: 10px;
+    margin: 2px 5px;
+`;
+
+export const EspImage = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 30px 0;
 `;

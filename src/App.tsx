@@ -5,6 +5,7 @@ import IconArrow from './assets/images/icons/icon_seta.png';
 import Consulta1 from './assets/images/image_primconsulta.jpg';
 import Consulta2 from './assets/images/image_consulta.jpg';
 import Consulta3 from './assets/images/image_exames.jpg';
+import ImageEsp from './assets/images/image_doctors.svg';
 
 const App = () => {
     return (
@@ -72,14 +73,84 @@ const App = () => {
                         Exames
                     </C.ScheduleHeader>
                     <C.ScheduleTopics>
-                    <li>Mais de 30 especialidades</li>
-                    <li>Agende rapidamento os seus próximos exames</li>
+                        <li>Mais de 30 especialidades</li>
+                        <li>Agende rapidamento os seus próximos exames</li>
                     </C.ScheduleTopics>
                     <C.Button2>
                         Agende sua consulta
                     </C.Button2>
                 </C.ScheduleSquare>
             </C.Schedule>
+
+
+
+            <C.Especialidades>
+                <C.EspHeader>
+                    Especialidades
+                </C.EspHeader>
+                <C.EspSub>
+                    Confira as especialidades oferecidas
+                </C.EspSub>
+                <C.EspBody>
+                    <C.EspImage>
+                        <C.Image src={ImageEsp} alt='' />
+                    </C.EspImage>
+                <C.ListaEspecialidades>
+                    <C.EspContent>
+                        <C.Espec>
+                            Alergologia
+                        </C.Espec>
+                        <C.Espec>
+                            Cardiologia
+                        </C.Espec>
+                        <C.Espec>
+                            Clínica médica
+                        </C.Espec>
+                        <C.Espec>
+                            Dermatologia
+                        </C.Espec>
+                        <C.Espec>
+                            Endocrinologia
+                        </C.Espec>
+                        <C.Espec>
+                            Gastroenterologia
+                        </C.Espec>
+                        <C.Espec>
+                            Geriatria
+                        </C.Espec>
+                        <C.Espec>
+                            Ginecologia
+                        </C.Espec>
+                    </C.EspContent>
+                    <C.EspContent>
+                        <C.Espec>
+                            Mastologia
+                        </C.Espec>
+                        <C.Espec>
+                            Neurologia
+                        </C.Espec>
+                        <C.Espec>
+                            Obstetrícia
+                        </C.Espec>
+                        <C.Espec>
+                            Odontologia
+                        </C.Espec>
+                        <C.Espec>
+                            Oftalmologia
+                        </C.Espec>
+                        <C.Espec>
+                            Pediatria
+                        </C.Espec>
+                        <C.Espec>
+                            Psiquiatria clínica
+                        </C.Espec>
+                        <C.Espec>
+                            Urologia
+                        </C.Espec>
+                    </C.EspContent>
+                </C.ListaEspecialidades>
+                </C.EspBody>
+            </C.Especialidades>
 
         </C.Container>
     );
