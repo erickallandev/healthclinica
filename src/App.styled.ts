@@ -65,6 +65,8 @@ export const Content = styled.div`
     justify-content: space-between;
     height: 80%;
     position: relative;
+    margin-bottom: 60px;
+    margin-top: 40px;
 `;
 
 export const HomeHeader = styled.div`
@@ -99,7 +101,6 @@ export const Button1 = styled.div`
 export const IconArrow = styled.div`
     width: 50px;
     margin: 0 auto;
-    margin-bottom: 60px;
     position: relative;
     filter: drop-shadow(0 0 2px #FFF);
 `;
