@@ -12,6 +12,7 @@ export const Home = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     height: 100vh;
     width: 100vw;
     background-color: #0C5C31;
@@ -22,11 +23,15 @@ export const Home = styled.div`
             background-repeat: no-repeat;
             background-position: center;
             position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             top: 0px;
             right: 0px;
             bottom: 0px;
             left: 0px;
             opacity: 0.3;
+            height: 100%;
         }
 `;
 
