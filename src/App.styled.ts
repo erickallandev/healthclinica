@@ -120,12 +120,12 @@ export const ScheduleSquare = styled.div`
     margin: 0 40px;
     margin-top: 50px;
     border-radius: 10px;
-    object-fit: cover;
 `;
 
 export const ImageAgenda = styled.img`
     width: 80%;
     object-fit: cover;
+    object-position: center;
     max-height: 200px;
     opacity: 0.6;
     position: absolute;
@@ -205,7 +205,7 @@ export const EspContent = styled.div`
 `;
 
 export const Espec = styled.div`
-    border: 1px solid #424242;;
+    border: 1px solid #424242;
     border-radius: 30px 30px 30px 0;
     display: flex;
     align-items: center;
@@ -260,4 +260,80 @@ export const AtendBody = styled.div`
     font-size: 0.8rem;
     color: #fff;
     text-align: center;
+`;
+
+
+/* Sobre o corpo clínico */
+ export const CorpoClinico = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    padding: 40px 0;
+    margin-bottom: 80px;
+ `;
+
+export const CCTitle = styled.div`
+    text-align: center;
+    color: #424242;
+    font-size: 1.5rem;
+    font-weight: 500;
+`;
+
+export const CCSubtitle = styled.div`
+    text-align: center;
+    color: #424242;
+    font-size: 1rem;
+    font-weight: 400;
+`;
+
+export const Doctors = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+`;
+
+export const Doctor = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 320px;
+    width: 300px;
+    background-color: #000;
+    margin: 0 40px;
+    margin-top: 50px;
+    border-radius: 10px;
+`;
+
+export const DoctorPhoto = styled.img`
+
+    object-fit: cover;
+    object-position: center;
+    height: 320px;
+    width: 300px;
+    opacity: 0.5;
+    position: absolute;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+`;
+
+export const DoctorName = styled.div`
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 5px;
+    position: relative;
+`;
+
+export const DoctorSubtitle = styled.div`
+    font-size: 1rem;
+    color: #fff;
+    margin-bottom: 30px;
+    position: relative;
 `;

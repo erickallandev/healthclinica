@@ -8,6 +8,25 @@ import Consulta3 from './assets/images/image_exames.jpg';
 import ImageEsp from './assets/images/image_doctors.svg';
 import Icon_tel from './assets/images/icons/icon_tel.svg';
 import BGImage from './assets/images/image_home.jpg';
+import Doctor1 from './assets/images/medico1.jpg';
+import Doctor2 from './assets/images/medico2.jpg';
+import Doctor3 from './assets/images/medico3.jpg';
+import Doctor4 from './assets/images/medico4.jpg';
+import Doctor5 from './assets/images/medico5.jpg';
+import Doctor6 from './assets/images/medico6.jpg';
+import Doctor7 from './assets/images/medico7.jpg';
+import Doctor8 from './assets/images/medico8.jpg';
+import Doctor9 from './assets/images/medico9.jpg';
+import Doctor10 from './assets/images/medico10.jpg';
+import Doctor11 from './assets/images/medico11.jpg';
+import Doctor12 from './assets/images/medico12.jpg';
+import Doctor13 from './assets/images/medico13.jpg';
+import Doctor14 from './assets/images/medico14.jpg';
+import Doctor15 from './assets/images/medico15.jpg';
+import Doctor16 from './assets/images/medico16.jpg';
+import Doctor17 from './assets/images/medico17.jpg';
+import Doctor18 from './assets/images/medico18.jpg';
+import Doctor19 from './assets/images/medico19.jpg';
 
 const App = () => {
     return (
@@ -169,6 +188,215 @@ const App = () => {
                     (84) 2525-2266 | (84) 2834-3838
                 </C.AtendBody>
             </C.CentAtendimento>
+
+
+
+            <C.CorpoClinico>
+                <C.CCTitle>
+                    Corpo Clínico
+                </C.CCTitle>
+                <C.CCSubtitle>
+                    Conheça os nossos especialistas
+                </C.CCSubtitle>
+
+                <C.Doctors>
+
+                </C.Doctors>
+                <C.Doctors>
+                    <C.Doctor>
+                        <C.DoctorPhoto src={Doctor1} alt='' />
+                        <C.DoctorName>
+                            Dr. João Leônidas Filho
+                        </C.DoctorName>
+                        <C.DoctorSubtitle>
+                            Diretor Geral
+                        </C.DoctorSubtitle>
+                    </C.Doctor>
+                </C.Doctors>
+
+                <C.Doctors>
+                <C.Doctor>
+                        <C.DoctorPhoto src={Doctor2} alt='' />
+                        <C.DoctorName>
+                        Dra. Maria Lúcia Silva
+                        </C.DoctorName>
+                        <C.DoctorSubtitle>
+                        Alergologista
+                        </C.DoctorSubtitle>
+                    </C.Doctor>
+
+                    <C.Doctor>
+                        <C.DoctorPhoto src={Doctor3} alt='' />
+                        <C.DoctorName>
+                        Dra. Joana Alves
+                        </C.DoctorName>
+                        <C.DoctorSubtitle>
+                        Cardiologista
+                        </C.DoctorSubtitle>
+                    </C.Doctor>
+
+                    <C.Doctor>
+                        <C.DoctorPhoto src={Doctor4} alt='' />
+                        <C.DoctorName>
+                        Dr. João Leôncio
+                        </C.DoctorName>
+                        <C.DoctorSubtitle>
+                        Clínico Geral
+                        </C.DoctorSubtitle>
+                    </C.Doctor>
+
+                    <C.Doctor>
+                        <C.DoctorPhoto src={Doctor5} alt='' />
+                        <C.DoctorName>
+                        Dr. Marcos Souza
+                        </C.DoctorName>
+                        <C.DoctorSubtitle>
+                        Clínico Geral
+                        </C.DoctorSubtitle>
+                    </C.Doctor>
+
+                    <C.Doctor>
+                        <C.DoctorPhoto src={Doctor6} alt='' />
+                        <C.DoctorName>
+                        Dra. Délis Maria Cristina
+                        </C.DoctorName>
+                        <C.DoctorSubtitle>
+                        Dermatologista
+                        </C.DoctorSubtitle>
+                    </C.Doctor>
+
+                    <C.Doctor>
+                        <C.DoctorPhoto src={Doctor7} alt='' />
+                        <C.DoctorName>
+                        Dr. Tomio Young
+                        </C.DoctorName>
+                        <C.DoctorSubtitle>
+                        Endocrinologista
+                        </C.DoctorSubtitle>
+                    </C.Doctor>
+
+                    <C.Doctor>
+                        <C.DoctorPhoto src={Doctor8} alt='' />
+                        <C.DoctorName>
+                        Dr. Paulo Henrique
+                        </C.DoctorName>
+                        <C.DoctorSubtitle>
+                        Geriatra
+                        </C.DoctorSubtitle>
+                    </C.Doctor>
+
+                    <C.Doctor>
+                        <C.DoctorPhoto src={Doctor9} alt='' />
+                        <C.DoctorName>
+                        Dra. Veruska Peixoto
+                        </C.DoctorName>
+                        <C.DoctorSubtitle>
+                        Geriatra
+                        </C.DoctorSubtitle>
+                    </C.Doctor>
+
+                    <C.Doctor>
+                        <C.DoctorPhoto src={Doctor10} alt='' />
+                        <C.DoctorName>
+                        Dra. Ana Lídia Flores
+                        </C.DoctorName>
+                        <C.DoctorSubtitle>
+                        Ginecologista
+                        </C.DoctorSubtitle>
+                    </C.Doctor>
+
+                    <C.Doctor>
+                        <C.DoctorPhoto src={Doctor11} alt='' />
+                        <C.DoctorName>
+                        Dra. Lívia Alburquerque
+                        </C.DoctorName>
+                        <C.DoctorSubtitle>
+                        Mastologista
+                        </C.DoctorSubtitle>
+                    </C.Doctor>
+
+                    <C.Doctor>
+                        <C.DoctorPhoto src={Doctor12} alt='' />
+                        <C.DoctorName>
+                        Dr. Carlos Augusto Silva
+                        </C.DoctorName>
+                        <C.DoctorSubtitle>
+                        Neurologista
+                        </C.DoctorSubtitle>
+                    </C.Doctor>
+
+                    <C.Doctor>
+                        <C.DoctorPhoto src={Doctor13} alt='' />
+                        <C.DoctorName>
+                        Dr. Hélio Gonçalves
+                        </C.DoctorName>
+                        <C.DoctorSubtitle>
+                        Obstetra
+                        </C.DoctorSubtitle>
+                    </C.Doctor>
+
+                    <C.Doctor>
+                        <C.DoctorPhoto src={Doctor14} alt='' />
+                        <C.DoctorName>
+                        Dr. Dênis Ferreira
+                        </C.DoctorName>
+                        <C.DoctorSubtitle>
+                        Dentista
+                        </C.DoctorSubtitle>
+                    </C.Doctor>
+
+                    <C.Doctor>
+                        <C.DoctorPhoto src={Doctor15} alt='' />
+                        <C.DoctorName>
+                        Dra. Mariana Queiroz
+                        </C.DoctorName>
+                        <C.DoctorSubtitle>
+                        Pediatra
+                        </C.DoctorSubtitle>
+                    </C.Doctor>
+
+                    <C.Doctor>
+                        <C.DoctorPhoto src={Doctor16} alt='' />
+                        <C.DoctorName>
+                        Dr. Daniel Barros                        </C.DoctorName>
+                        <C.DoctorSubtitle>
+                        Pediatra
+                        </C.DoctorSubtitle>
+                    </C.Doctor>
+
+                    <C.Doctor>
+                        <C.DoctorPhoto src={Doctor17} alt='' />
+                        <C.DoctorName>
+                        Dr. Anna Gabriella                        </C.DoctorName>
+                        <C.DoctorSubtitle>
+                        Pediatra
+                        </C.DoctorSubtitle>
+                    </C.Doctor>
+
+                    <C.Doctor>
+                        <C.DoctorPhoto src={Doctor18} alt='' />
+                        <C.DoctorName>
+                        Dr. Hugo Moura
+                        </C.DoctorName>
+                        <C.DoctorSubtitle>
+                        Psiquiatra
+                        </C.DoctorSubtitle>
+                    </C.Doctor>
+
+                    <C.Doctor>
+                        <C.DoctorPhoto src={Doctor19} alt='' />
+                        <C.DoctorName>
+                        Dr. Pedro Siqueira
+                        </C.DoctorName>
+                        <C.DoctorSubtitle>
+                        Urologista
+                        </C.DoctorSubtitle>
+                    </C.Doctor>
+
+                    
+                </C.Doctors>
+
+            </C.CorpoClinico>
 
         </C.Container>
     );
