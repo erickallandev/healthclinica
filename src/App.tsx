@@ -470,6 +470,58 @@ const App = () => {
                 </C.ListaConvenios>
             </C.Convenios>
 
+            <C.FaleConosco>
+                <C.FaleTitle>
+                    Fale conosco
+                </C.FaleTitle>
+                <C.FaleSubtitle>
+                    Entre em contato conosco através de um dos canais oferecidos abaixo:
+                </C.FaleSubtitle>
+                <C.InfosContato>
+                    <C.InfoContato>
+                        <C.InfoTitle>
+                            Telefone
+                        </C.InfoTitle>
+                        <C.Infos>
+                            (84) 2850-5328 | (84) 2380-8706 <br />
+                            (84) 2169-0515 | (84) 2803-5137
+                        </C.Infos>
+                    </C.InfoContato>
+                    <C.InfoContato>
+                        <C.InfoTitle>
+                            Whatsapp
+                        </C.InfoTitle>
+                        <C.Infos>
+                            (84) 99594-7364 | (84) 99314-4673 <br />
+                            (Clique em uma das opções)
+                        </C.Infos>
+                    </C.InfoContato>
+                </C.InfosContato>
+
+                <C.InfosContato>
+                    <C.InfoContato>
+                        <C.InfoTitle>
+                            Horário de atendimento
+                        </C.InfoTitle>
+                        <C.Infos>
+                            Segunda a Sábado: 06h - 00h <br />
+                            Domingo: 06h - 22h
+                        </C.Infos>
+                    </C.InfoContato>
+                    <C.InfoContato>
+                        <C.InfoTitle>
+                            Endereço
+                        </C.InfoTitle>
+                        <C.Infos>
+                            Av. Des. João da Fonseca, 999 <br />
+                            Petrópolis, Natal/RN
+                        </C.Infos>
+                    </C.InfoContato>
+                </C.InfosContato>
+
+                <C.Mapa></C.Mapa>
+            </C.FaleConosco>
+
         </C.Container>
     );
 }

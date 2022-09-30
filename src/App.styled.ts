@@ -361,6 +361,7 @@ export const Convenios = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 80px;
 `;
 
 export const ListaConvenios = styled.div`
@@ -426,4 +427,64 @@ export const TitleConvenio = styled.div`
     position: relative;
     margin-top: 10px;
     margin-bottom: 10px;
+`;
+
+
+/* Fale conosco */
+
+export const FaleConosco = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #0C5C31;
+    padding: 60px;
+`;
+
+export const FaleTitle = styled.div`
+    text-align: center;
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+`;
+
+export const FaleSubtitle = styled.div`
+    text-align: center;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 60px;
+`;
+
+export const InfosContato = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: #fff;
+`;
+
+export const InfoContato = styled.div`
+    font-size: 1rem;
+    margin-bottom: 40px;
+`;
+
+export const InfoTitle = styled.div`
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 10px;
+`;
+
+export const Infos = styled.div`
+
+`;
+
+export const Mapa = styled.div`
+    width: 100%;
+    height: 250px;
+    background-color: #FFF;
+    border-radius: 30px 30px 30px 0;
 `;
