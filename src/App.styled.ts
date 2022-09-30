@@ -337,3 +337,93 @@ export const DoctorSubtitle = styled.div`
     margin-bottom: 30px;
     position: relative;
 `;
+
+
+
+/* Convênios */
+
+export const ConvTitle = styled.div`
+    text-align: center;
+    color: #424242;
+    font-size: 1.5rem;
+    font-weight: 500;
+`;
+
+export const ConvSubtitle = styled.div`
+    text-align: center;
+    color: #424242;
+    font-size: 1rem;
+    font-weight: 400;
+`;
+
+export const Convenios = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+`;
+
+export const ListaConvenios = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+`;
+
+export const Convenio = styled.div`
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0C5C31;
+    width: 300px;
+    height: 190px;
+    border-radius: 30px 30px 30px 0;
+    margin-bottom: 30px;
+`;
+
+export const BGPhotoConvenio = styled.div`
+    background-color: #FFF;
+    width: 180px;
+    height: 120px;
+    border-radius: 30px 30px 30px 0;
+    border: 5px solid #fff;
+    display: flex;
+    align-items: center;
+    align-items: center;
+`;
+
+export const BGPhotoConvenioAllianz = styled.div`
+    background-color: #FFF;
+    width: 180px;
+    height: 120px;
+    border-radius: 30px 30px 30px 0;
+    border: 5px solid #FFFFFF;
+    background-color: #002F87;
+    display: flex;
+    align-items: center;
+    align-items: center;
+`;
+
+export const PhotoConvenio = styled.img`
+    max-height: 120px;
+    max-width: 160px;
+    margin: 0 auto;
+    background-color: #FFF;
+`;
+
+export const PhotoConvenioUnimed = styled.img`
+    width: 170px;
+    margin: 0 auto;
+`;
+
+export const TitleConvenio = styled.div`
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 5px;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+`;

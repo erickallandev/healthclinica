@@ -27,6 +27,12 @@ import Doctor16 from './assets/images/medico16.jpg';
 import Doctor17 from './assets/images/medico17.jpg';
 import Doctor18 from './assets/images/medico18.jpg';
 import Doctor19 from './assets/images/medico19.jpg';
+import Convenio1 from './assets/images/convenio_unimed.png';
+import Convenio2 from './assets/images/convenio_amil.png';
+import Convenio3 from './assets/images/convenio_sulamerica.png';
+import Convenio4 from './assets/images/convenio_bradesco.png';
+import Convenio5 from './assets/images/convenio_porto.png';
+import Convenio6 from './assets/images/convenio_allianz.png';
 
 const App = () => {
     return (
@@ -117,60 +123,60 @@ const App = () => {
                     <C.EspImage>
                         <C.Image src={ImageEsp} alt='' />
                     </C.EspImage>
-                <C.ListaEspecialidades>
-                    <C.EspContent>
-                        <C.Espec>
-                            Alergologia
-                        </C.Espec>
-                        <C.Espec>
-                            Cardiologia
-                        </C.Espec>
-                        <C.Espec>
-                            Clínica médica
-                        </C.Espec>
-                        <C.Espec>
-                            Dermatologia
-                        </C.Espec>
-                        <C.Espec>
-                            Endocrinologia
-                        </C.Espec>
-                        <C.Espec>
-                            Gastroenterologia
-                        </C.Espec>
-                        <C.Espec>
-                            Geriatria
-                        </C.Espec>
-                        <C.Espec>
-                            Ginecologia
-                        </C.Espec>
-                    </C.EspContent>
-                    <C.EspContent>
-                        <C.Espec>
-                            Mastologia
-                        </C.Espec>
-                        <C.Espec>
-                            Neurologia
-                        </C.Espec>
-                        <C.Espec>
-                            Obstetrícia
-                        </C.Espec>
-                        <C.Espec>
-                            Odontologia
-                        </C.Espec>
-                        <C.Espec>
-                            Oftalmologia
-                        </C.Espec>
-                        <C.Espec>
-                            Pediatria
-                        </C.Espec>
-                        <C.Espec>
-                            Psiquiatria clínica
-                        </C.Espec>
-                        <C.Espec>
-                            Urologia
-                        </C.Espec>
-                    </C.EspContent>
-                </C.ListaEspecialidades>
+                    <C.ListaEspecialidades>
+                        <C.EspContent>
+                            <C.Espec>
+                                Alergologia
+                            </C.Espec>
+                            <C.Espec>
+                                Cardiologia
+                            </C.Espec>
+                            <C.Espec>
+                                Clínica médica
+                            </C.Espec>
+                            <C.Espec>
+                                Dermatologia
+                            </C.Espec>
+                            <C.Espec>
+                                Endocrinologia
+                            </C.Espec>
+                            <C.Espec>
+                                Gastroenterologia
+                            </C.Espec>
+                            <C.Espec>
+                                Geriatria
+                            </C.Espec>
+                            <C.Espec>
+                                Ginecologia
+                            </C.Espec>
+                        </C.EspContent>
+                        <C.EspContent>
+                            <C.Espec>
+                                Mastologia
+                            </C.Espec>
+                            <C.Espec>
+                                Neurologia
+                            </C.Espec>
+                            <C.Espec>
+                                Obstetrícia
+                            </C.Espec>
+                            <C.Espec>
+                                Odontologia
+                            </C.Espec>
+                            <C.Espec>
+                                Oftalmologia
+                            </C.Espec>
+                            <C.Espec>
+                                Pediatria
+                            </C.Espec>
+                            <C.Espec>
+                                Psiquiatria clínica
+                            </C.Espec>
+                            <C.Espec>
+                                Urologia
+                            </C.Espec>
+                        </C.EspContent>
+                    </C.ListaEspecialidades>
                 </C.EspBody>
             </C.Especialidades>
 
@@ -215,188 +221,254 @@ const App = () => {
                 </C.Doctors>
 
                 <C.Doctors>
-                <C.Doctor>
+                    <C.Doctor>
                         <C.DoctorPhoto src={Doctor2} alt='' />
                         <C.DoctorName>
-                        Dra. Maria Lúcia Silva
+                            Dra. Maria Lúcia Silva
                         </C.DoctorName>
                         <C.DoctorSubtitle>
-                        Alergologista
+                            Alergologista
                         </C.DoctorSubtitle>
                     </C.Doctor>
 
                     <C.Doctor>
                         <C.DoctorPhoto src={Doctor3} alt='' />
                         <C.DoctorName>
-                        Dra. Joana Alves
+                            Dra. Joana Alves
                         </C.DoctorName>
                         <C.DoctorSubtitle>
-                        Cardiologista
+                            Cardiologista
                         </C.DoctorSubtitle>
                     </C.Doctor>
 
                     <C.Doctor>
                         <C.DoctorPhoto src={Doctor4} alt='' />
                         <C.DoctorName>
-                        Dr. João Leôncio
+                            Dr. João Leôncio
                         </C.DoctorName>
                         <C.DoctorSubtitle>
-                        Clínico Geral
+                            Clínico Geral
                         </C.DoctorSubtitle>
                     </C.Doctor>
 
                     <C.Doctor>
                         <C.DoctorPhoto src={Doctor5} alt='' />
                         <C.DoctorName>
-                        Dr. Marcos Souza
+                            Dr. Marcos Souza
                         </C.DoctorName>
                         <C.DoctorSubtitle>
-                        Clínico Geral
+                            Clínico Geral
                         </C.DoctorSubtitle>
                     </C.Doctor>
 
                     <C.Doctor>
                         <C.DoctorPhoto src={Doctor6} alt='' />
                         <C.DoctorName>
-                        Dra. Délis Maria Cristina
+                            Dra. Délis Maria Cristina
                         </C.DoctorName>
                         <C.DoctorSubtitle>
-                        Dermatologista
+                            Dermatologista
                         </C.DoctorSubtitle>
                     </C.Doctor>
 
                     <C.Doctor>
                         <C.DoctorPhoto src={Doctor7} alt='' />
                         <C.DoctorName>
-                        Dr. Tomio Young
+                            Dr. Tomio Young
                         </C.DoctorName>
                         <C.DoctorSubtitle>
-                        Endocrinologista
+                            Endocrinologista
                         </C.DoctorSubtitle>
                     </C.Doctor>
 
                     <C.Doctor>
                         <C.DoctorPhoto src={Doctor8} alt='' />
                         <C.DoctorName>
-                        Dr. Paulo Henrique
+                            Dr. Paulo Henrique
                         </C.DoctorName>
                         <C.DoctorSubtitle>
-                        Geriatra
+                            Geriatra
                         </C.DoctorSubtitle>
                     </C.Doctor>
 
                     <C.Doctor>
                         <C.DoctorPhoto src={Doctor9} alt='' />
                         <C.DoctorName>
-                        Dra. Veruska Peixoto
+                            Dra. Veruska Peixoto
                         </C.DoctorName>
                         <C.DoctorSubtitle>
-                        Geriatra
+                            Geriatra
                         </C.DoctorSubtitle>
                     </C.Doctor>
 
                     <C.Doctor>
                         <C.DoctorPhoto src={Doctor10} alt='' />
                         <C.DoctorName>
-                        Dra. Ana Lídia Flores
+                            Dra. Ana Lídia Flores
                         </C.DoctorName>
                         <C.DoctorSubtitle>
-                        Ginecologista
+                            Ginecologista
                         </C.DoctorSubtitle>
                     </C.Doctor>
 
                     <C.Doctor>
                         <C.DoctorPhoto src={Doctor11} alt='' />
                         <C.DoctorName>
-                        Dra. Lívia Alburquerque
+                            Dra. Lívia Alburquerque
                         </C.DoctorName>
                         <C.DoctorSubtitle>
-                        Mastologista
+                            Mastologista
                         </C.DoctorSubtitle>
                     </C.Doctor>
 
                     <C.Doctor>
                         <C.DoctorPhoto src={Doctor12} alt='' />
                         <C.DoctorName>
-                        Dr. Carlos Augusto Silva
+                            Dr. Carlos Augusto Silva
                         </C.DoctorName>
                         <C.DoctorSubtitle>
-                        Neurologista
+                            Neurologista
                         </C.DoctorSubtitle>
                     </C.Doctor>
 
                     <C.Doctor>
                         <C.DoctorPhoto src={Doctor13} alt='' />
                         <C.DoctorName>
-                        Dr. Hélio Gonçalves
+                            Dr. Hélio Gonçalves
                         </C.DoctorName>
                         <C.DoctorSubtitle>
-                        Obstetra
+                            Obstetra
                         </C.DoctorSubtitle>
                     </C.Doctor>
 
                     <C.Doctor>
                         <C.DoctorPhoto src={Doctor14} alt='' />
                         <C.DoctorName>
-                        Dr. Dênis Ferreira
+                            Dr. Dênis Ferreira
                         </C.DoctorName>
                         <C.DoctorSubtitle>
-                        Dentista
+                            Dentista
                         </C.DoctorSubtitle>
                     </C.Doctor>
 
                     <C.Doctor>
                         <C.DoctorPhoto src={Doctor15} alt='' />
                         <C.DoctorName>
-                        Dra. Mariana Queiroz
+                            Dra. Mariana Queiroz
                         </C.DoctorName>
                         <C.DoctorSubtitle>
-                        Pediatra
+                            Pediatra
                         </C.DoctorSubtitle>
                     </C.Doctor>
 
                     <C.Doctor>
                         <C.DoctorPhoto src={Doctor16} alt='' />
                         <C.DoctorName>
-                        Dr. Daniel Barros                        </C.DoctorName>
+                            Dr. Daniel Barros                        </C.DoctorName>
                         <C.DoctorSubtitle>
-                        Pediatra
+                            Pediatra
                         </C.DoctorSubtitle>
                     </C.Doctor>
 
                     <C.Doctor>
                         <C.DoctorPhoto src={Doctor17} alt='' />
                         <C.DoctorName>
-                        Dr. Anna Gabriella                        </C.DoctorName>
+                            Dr. Anna Gabriella                        </C.DoctorName>
                         <C.DoctorSubtitle>
-                        Pediatra
+                            Pediatra
                         </C.DoctorSubtitle>
                     </C.Doctor>
 
                     <C.Doctor>
                         <C.DoctorPhoto src={Doctor18} alt='' />
                         <C.DoctorName>
-                        Dr. Hugo Moura
+                            Dr. Hugo Moura
                         </C.DoctorName>
                         <C.DoctorSubtitle>
-                        Psiquiatra
+                            Psiquiatra
                         </C.DoctorSubtitle>
                     </C.Doctor>
 
                     <C.Doctor>
                         <C.DoctorPhoto src={Doctor19} alt='' />
                         <C.DoctorName>
-                        Dr. Pedro Siqueira
+                            Dr. Pedro Siqueira
                         </C.DoctorName>
                         <C.DoctorSubtitle>
-                        Urologista
+                            Urologista
                         </C.DoctorSubtitle>
                     </C.Doctor>
 
-                    
                 </C.Doctors>
-
             </C.CorpoClinico>
+
+
+            <C.Convenios>
+                <C.ConvTitle>
+                    Convênios
+                </C.ConvTitle>
+                <C.ConvSubtitle>
+                    Confira os convênios aceitos
+                </C.ConvSubtitle>
+
+                <C.ListaConvenios>
+                    <C.Convenio>
+                        <C.BGPhotoConvenio>
+                            <C.PhotoConvenioUnimed src={Convenio1} alt='' />
+                        </C.BGPhotoConvenio>
+                        <C.TitleConvenio>
+                            Unimed
+                        </C.TitleConvenio>
+                    </C.Convenio>
+
+                    <C.Convenio>
+                        <C.BGPhotoConvenio>
+                            <C.PhotoConvenio src={Convenio2} alt='' />
+                        </C.BGPhotoConvenio>
+                        <C.TitleConvenio>
+                            Amil
+                        </C.TitleConvenio>
+                    </C.Convenio>
+
+                    <C.Convenio>
+                        <C.BGPhotoConvenio>
+                            <C.PhotoConvenio src={Convenio3} alt='' />
+                        </C.BGPhotoConvenio>
+                        <C.TitleConvenio>
+                            Sulamérica
+                        </C.TitleConvenio>
+                    </C.Convenio>
+                </C.ListaConvenios>
+
+                <C.ListaConvenios>
+                    <C.Convenio>
+                        <C.BGPhotoConvenio>
+                            <C.PhotoConvenio src={Convenio4} alt='' />
+                        </C.BGPhotoConvenio>
+                        <C.TitleConvenio>
+                            Bradesco Saúde
+                        </C.TitleConvenio>
+                    </C.Convenio>
+
+                    <C.Convenio>
+                        <C.BGPhotoConvenio>
+                            <C.PhotoConvenio src={Convenio5} alt='' />
+                        </C.BGPhotoConvenio>
+                        <C.TitleConvenio>
+                            Porto Seguro
+                        </C.TitleConvenio>
+                    </C.Convenio>
+
+                    <C.Convenio>
+                        <C.BGPhotoConvenioAllianz>
+                            <C.PhotoConvenio src={Convenio6} alt='' />
+                        </C.BGPhotoConvenioAllianz>
+                        <C.TitleConvenio>
+                            Allianz
+                        </C.TitleConvenio>
+                    </C.Convenio>
+                </C.ListaConvenios>
+            </C.Convenios>
 
         </C.Container>
     );
