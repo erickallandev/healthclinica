@@ -522,6 +522,21 @@ const App = () => {
                 <C.Mapa></C.Mapa>
             </C.FaleConosco>
 
+            <C.Agendamento>
+                <C.AgendaTitle>
+                    Agendamento rápido
+                </C.AgendaTitle>
+                <C.AgendaSubtitle>
+                    Fale com um de nossos atendentes e agende já a sua primeira consulta, retorno ou marcação de exames.
+                </C.AgendaSubtitle>
+                <C.AgendaSubtitle>
+                    Tenha em mãos um documento de identificação e o seu convênio, se for o caso.
+                </C.AgendaSubtitle>
+                <C.Button3>
+                    Clique para iniciar o atendimento
+                </C.Button3>
+            </C.Agendamento>
+
         </C.Container>
     );
 }

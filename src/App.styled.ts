@@ -487,4 +487,47 @@ export const Mapa = styled.div`
     height: 250px;
     background-color: #FFF;
     border-radius: 30px 30px 30px 0;
+    margin-top: 20px;
+`;
+
+
+
+/* Sessão de agendamento */
+
+export const Agendamento = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFF;
+    color: #424242;
+    padding: 40px;
+`;
+
+export const AgendaTitle = styled.div`
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+`;
+
+export const AgendaSubtitle = styled.div`
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+`;
+
+export const Button3 = styled.div`
+    background-color: #0C5C31;
+    color: #fff;
+    border-radius: 50px;
+    padding: 16px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-top: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
 `;
