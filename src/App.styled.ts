@@ -5,6 +5,8 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
+    max-width: 100vw;
 `;
 
 export const Home = styled.div`
@@ -12,10 +14,7 @@ export const Home = styled.div`
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    max-height: 100vh;
     height: 100vh;
-    min-height: 100vh;
-    width: 100vw;
     background-color: #0C5C31;
 `;
 
@@ -49,9 +48,8 @@ export const Content = styled.div`
     justify-content: space-between;
     align-items: center;
     position: relative;
-    margin-top: 200px;
-    height: calc(100% - 300px);
-    margin-bottom: 100px;
+    margin-top: 100px;
+    height: 100vh;
 `;
 
 export const HomeHeader = styled.div`
@@ -96,6 +94,7 @@ export const Button1 = styled.div`
 export const IconArrow = styled.div`
     width: 50px;
     margin: 0 auto;
+    margin-bottom: 30px;
     position: relative;
     filter: drop-shadow(0 0 2px #FFF);
 `;
