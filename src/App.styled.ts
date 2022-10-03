@@ -354,6 +354,7 @@ export const ConvSubtitle = styled.div`
     color: #424242;
     font-size: 1rem;
     font-weight: 400;
+    margin-bottom: 50px;
 `;
 
 export const Convenios = styled.div`
@@ -369,7 +370,6 @@ export const ListaConvenios = styled.div`
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 40px;
 `;
 
 export const Convenio = styled.div`
