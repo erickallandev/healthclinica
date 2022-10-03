@@ -59,7 +59,8 @@ export const HomeHeader = styled.div`
     font-weight: 700;
     letter-spacing: 1.5px;
     color: #FFF;
-    margin: 0 40px;
+    margin: 0 10%;
+    width: 80%;
 `;
 
 export const ImageHome = styled.img`
@@ -74,7 +75,8 @@ export const HomeText = styled.div`
     font-size: 1.2rem;
     font-weight: 400;
     color: #FFF;
-    margin: 0 40px;
+    margin: 0 10%;
+    width: 80%;
 `;
 
 export const Button1 = styled.div`
