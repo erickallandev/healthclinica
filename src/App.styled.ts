@@ -17,7 +17,6 @@ export const Home = styled.div`
     min-height: 100vh;
     width: 100vw;
     background-color: #0C5C31;
-    object-fit: cover;
 `;
 
 export const NavBar = styled.nav`
@@ -26,7 +25,7 @@ export const NavBar = styled.nav`
     width: calc(100vw - 50px);
     justify-content: space-between;
     align-items: center;
-    position: relative;
+    position: absolute;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -48,10 +47,11 @@ export const Content = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 70%;
+    align-items: center;
     position: relative;
-    margin-bottom: 60px;
-    margin-top: 40px;
+    margin-top: 200px;
+    height: calc(100% - 300px);
+    margin-bottom: 100px;
 `;
 
 export const HomeHeader = styled.div`
@@ -71,7 +71,7 @@ export const ImageHome = styled.img`
 `;
 
 export const HomeText = styled.div`
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 400;
     color: #FFF;
     margin: 0 40px;
