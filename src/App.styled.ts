@@ -531,3 +531,108 @@ export const Button3 = styled.div`
     margin-top: 20px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
 `;
+
+
+
+/* Footer */
+
+export const Footer = styled.footer`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0C5C31;
+    color: #FFF;
+    width: 100%;
+`;
+
+export const FooterInfo = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 40px;
+`;
+
+export const FooterInfo1 = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+`;
+
+export const Info1Text = styled.div`
+    margin-top: 20px;
+`;
+
+export const FooterInfo2 = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+`;
+
+export const Info2Header = styled.div`
+    font-size: 1.1rem;
+    font-weight: 500;
+`;
+
+export const Info2Text = styled.div`
+
+`;
+
+export const FooterInfo3 = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+`;
+
+export const Info3Header = styled.div`
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    font-weight: 500;
+`;
+
+export const Info3Icons = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+`;
+
+export const IconMedia = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+`;
+
+export const hr = styled.hr`
+    margin: 0;
+    width: 100%;
+    background-color: #0C5C31;
+    opacity: 0.3;
+`;
+
+export const hr2 = styled.hr`
+    margin: 0;
+    width: 100%;
+    background-color: #0C5C31;
+    opacity: 0.3;
+    margin: 50px 0;
+`;
+
+export const FooterRef = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 0.9rem;
+    margin: 50px auto;
+`;

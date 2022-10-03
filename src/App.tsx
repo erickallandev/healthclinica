@@ -33,6 +33,12 @@ import Convenio3 from './assets/images/convenio_sulamerica.png';
 import Convenio4 from './assets/images/convenio_bradesco.png';
 import Convenio5 from './assets/images/convenio_porto.png';
 import Convenio6 from './assets/images/convenio_allianz.png';
+import IconSocial1 from './assets/images/icons/icon_whatsapp.svg';
+import IconSocial2 from './assets/images/icons/icon_linkedin.svg';
+import IconSocial3 from './assets/images/icons/icon_instagram.svg';
+import IconSocial4 from './assets/images/icons/icon_facebook.svg';
+import IconSocial5 from './assets/images/icons/icon_behance.svg';
+import IconSocial6 from './assets/images/icons/icon_twitter.svg';
 
 const App = () => {
     return (
@@ -536,6 +542,68 @@ const App = () => {
                     Clique para iniciar o atendimento
                 </C.Button3>
             </C.Agendamento>
+
+            <C.Footer>
+                <C.FooterInfo>
+                    <C.FooterInfo1>
+                        <C.IconLogo>
+                            <C.Image src={IconLogo} alt='' />
+                        </C.IconLogo>
+                        <C.Info1Text>
+                            Aqui na Health Clínica você encontrará o conforto que tanto busca para cuidar da sua saúde. A nossa equipe multidisciplinar está pronta para atendê-lo da melhor forma possível. Agenda já a sua consulta.
+                        </C.Info1Text>
+                    </C.FooterInfo1>
+                    <C.hr2 />
+                    <C.FooterInfo2>
+                        <C.Info2Header>
+                        Endereço
+                        </C.Info2Header>
+                        <C.Info2Text>
+                            Av. Des. João da Fonseca, 999 <br />
+                            Petrópolis, Natal/RN - CEP: 59020-025
+                        </C.Info2Text>
+                        <br />
+                        <C.Info2Text>
+                            <C.Info2Header>
+                            Telefones
+                            </C.Info2Header>
+                            (84) 2850-5328 | (84) 2380-8706 <br />
+                            (84) 2169-0515 | (84) 2803-5137
+                        </C.Info2Text>
+                    </C.FooterInfo2>
+                    <C.hr2 />
+                    <C.FooterInfo3>
+                        <C.Info3Header>
+                            Redes sociais
+                        </C.Info3Header>
+                        <C.Info3Icons>
+                        <C.IconMedia>
+                            <C.Image src={IconSocial1} alt='' />
+                        </C.IconMedia>
+                        <C.IconMedia>
+                            <C.Image src={IconSocial2} alt='' />
+                        </C.IconMedia>
+                        <C.IconMedia>
+                            <C.Image src={IconSocial3} alt='' />
+                        </C.IconMedia>
+                        <C.IconMedia>
+                            <C.Image src={IconSocial4} alt='' />
+                        </C.IconMedia>
+                        <C.IconMedia>
+                            <C.Image src={IconSocial5} alt='' />
+                        </C.IconMedia>
+                        <C.IconMedia>
+                            <C.Image src={IconSocial6} alt='' />
+                        </C.IconMedia>
+                        </C.Info3Icons>
+                    </C.FooterInfo3>
+                </C.FooterInfo>
+                <C.hr />
+                <C.FooterRef>
+                    Health Clínica 2022 - Todos os direitos reservados <br />
+                    Desenvolvido por EAWebDev 2022
+                </C.FooterRef>
+            </C.Footer>
 
         </C.Container>
     );
