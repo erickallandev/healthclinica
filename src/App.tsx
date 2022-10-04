@@ -121,6 +121,9 @@ const App = () => {
                     <C.HomeHeader>
                         Comece a cuidar<br /> da sua saúde<br /> ainda hoje!
                     </C.HomeHeader>
+                    <C.HomeHeaderDesktop>
+                        Comece a<br /> cuidar da sua<br /> saúde ainda hoje!
+                    </C.HomeHeaderDesktop>
                     <C.HomeText>
                         A Health Clínica é a melhor opção para você cuidar do seu mais precioso bem: a sua saúde. Atendemos de forma humanizada, com um preço acessível e sempre pensando no melhor para você.
                     </C.HomeText>

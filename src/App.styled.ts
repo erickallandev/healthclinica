@@ -149,6 +149,12 @@ export const Content = styled.div`
     justify-content: space-evenly;
     margin-bottom: 50px;
     height: 100vh;
+        @media (min-width: 1024px) {
+            align-items: flex-start;
+            width: calc(100% - 160px);
+            justify-content: flex-end;
+            margin-bottom: 80px;
+        }
 `;
 
 export const HomeHeader = styled.div`
@@ -158,6 +164,25 @@ export const HomeHeader = styled.div`
     color: #FFF;
     margin: 0 10%;
     width: 80%;
+    @media (min-width: 1024px) {
+        display: none;
+    }
+`;
+
+export const HomeHeaderDesktop = styled.div`
+    display: none;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: #FFF;
+    margin: 0 10%;
+    width: 100%;
+    font-size: 4rem;
+    @media (min-width: 1024px) {
+        display: flex;
+        margin: 0;
+        margin-bottom: 30px;
+    }
 `;
 
 export const HomeText = styled.div`
@@ -166,6 +191,9 @@ export const HomeText = styled.div`
     color: #FFF;
     margin: 0 10%;
     width: 80%;
+    @media (min-width: 1024px) {
+        display: none;
+    }
 `;
 
 export const ImageHome = styled.img`
@@ -193,6 +221,12 @@ export const Button1 = styled.div`
     font-size: 1rem;
     margin: 0 30px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
+        @media (min-width: 1024px) {
+            margin: 0;
+            font-size: 1.2rem;
+            padding: 19px 38px;
+            font-weight: 600;
+        }
 `;
 
 /* Estilizações da área de agenda */
