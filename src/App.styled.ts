@@ -131,6 +131,7 @@ export const Home = styled.div`
     bottom: 0;
     left: 0;
     right: 0;
+    position: relative;
         @media (min-width: 1024px) {
             height: 100vh;
         }
