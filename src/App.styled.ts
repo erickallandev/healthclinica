@@ -63,7 +63,7 @@ export const HomeHeader = styled.div`
 `;
 
 export const ImageHome = styled.img`
-    height: 100%;
+    height: 100vh;
     max-width: 100%;
     object-fit: cover;
     position: absolute;
