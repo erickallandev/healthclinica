@@ -48,8 +48,9 @@ export const Content = styled.div`
     justify-content: space-between;
     align-items: center;
     position: relative;
-    margin-top: 100px;
-    height: 100vh;
+    margin-top: 150px;
+    flex:1;
+    margin-bottom: 50px;
 `;
 
 export const HomeHeader = styled.div`

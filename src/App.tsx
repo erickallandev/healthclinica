@@ -66,9 +66,6 @@ const App = () => {
                         Agende agora o seu atendimento
                     </C.Button1>
 
-                    <C.IconArrow>
-                        <C.Image src={IconArrow} alt='' />
-                    </C.IconArrow>
                 </C.Content>
             </C.Home>
 
