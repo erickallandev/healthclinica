@@ -6,11 +6,11 @@ export const Container = styled.div`
     align-items: center;
     justify-content: center;
     width: 100vw;
-    overflow: hidden;
+    overflow-x: hidden;
 `;
 
 export const navbarDesktop = styled.nav`
-    width: 100vw;
+    width: 100%;
     margin: 0 80px;
     background-color: #FFF;
     display: none;
