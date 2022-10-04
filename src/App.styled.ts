@@ -160,6 +160,14 @@ export const HomeHeader = styled.div`
     width: 80%;
 `;
 
+export const HomeText = styled.div`
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #FFF;
+    margin: 0 10%;
+    width: 80%;
+`;
+
 export const ImageHome = styled.img`
     height: 100%;
     width: 100%;
@@ -172,24 +180,16 @@ export const ImageHome = styled.img`
     opacity: 0.3;
 `;
 
-export const HomeText = styled.div`
-    font-size: 1.2rem;
-    font-weight: 400;
-    color: #FFF;
-    margin: 0 10%;
-    width: 80%;
-`;
-
 export const Button1 = styled.div`
     background-color: #FFF;
     white-space: nowrap;
     border-radius: 50px;
-    padding: 16px 32px;
+    padding: 15px 32px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #424242;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 1rem;
     margin: 0 30px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
@@ -235,29 +235,30 @@ export const ImageAgenda = styled.img`
 
 export const ScheduleHeader = styled.div`
     font-weight: 700;
-    font-size: 1.2rem;
-    margin-top: 10%;
+    font-size: 1rem;
     position: relative;
+    text-transform: uppercase;
 `;
 
 export const ScheduleTopics = styled.ul`
     list-style-type: none;
     padding: 0;
+    margin: 5% 5%;
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     position: relative;
 `;
 
 export const Button2 = styled.div`
     background-color: #FFF;
     border-radius: 50px;
-    padding: 10px 20px;
+    padding: 14px 28px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #424242;
-    font-weight: 700;
-    font-size: 0.8rem;
+    font-weight: 500;
+    font-size: 0.9rem;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
     position: relative;
     white-space: nowrap;
@@ -290,7 +291,7 @@ export const EspHeader = styled.div`
 export const EspSub = styled.div`
     text-align: center;
     color: #424242;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 400;
 `;
 
@@ -309,7 +310,7 @@ export const Espec = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 6px 12px;
     margin-bottom: 10px;
     margin: 2px 5px;
@@ -334,7 +335,7 @@ export const CentAtendimento = styled.div`
     flex-direction: column;
     background-color: #0C5C31;
     width: 100vw;
-    padding: 40px 0;
+    padding: 80px 0;
 `;
 
 export const Icon1 = styled.div`
@@ -348,7 +349,7 @@ export const Icon1 = styled.div`
 
 export const AtendHeader = styled.div`
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: #FFF;
     text-align: center;
     margin-bottom: 10px;
@@ -356,7 +357,7 @@ export const AtendHeader = styled.div`
 
 export const AtendBody = styled.div`
     width: 80vw;
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: #fff;
     text-align: center;
 `;
@@ -383,7 +384,7 @@ export const CCTitle = styled.div`
 export const CCSubtitle = styled.div`
     text-align: center;
     color: #424242;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 400;
 `;
 
@@ -423,7 +424,7 @@ export const DoctorPhoto = styled.img`
 `;
 
 export const DoctorName = styled.div`
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 700;
     color: #fff;
     margin-bottom: 5px;
@@ -431,7 +432,7 @@ export const DoctorName = styled.div`
 `;
 
 export const DoctorSubtitle = styled.div`
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: #fff;
     margin-bottom: 30px;
     position: relative;
@@ -451,7 +452,7 @@ export const ConvTitle = styled.div`
 export const ConvSubtitle = styled.div`
     text-align: center;
     color: #424242;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 400;
     margin-bottom: 50px;
 `;
@@ -537,7 +538,7 @@ export const FaleConosco = styled.div`
     justify-content: center;
     flex-direction: column;
     background-color: #0C5C31;
-    padding: 60px 0;
+    padding: 80px 0;
     width: 100%;
 `;
 
@@ -569,12 +570,11 @@ export const InfosContato = styled.div`
 `;
 
 export const InfoContato = styled.div`
-    font-size: 1rem;
     margin-bottom: 40px;
 `;
 
 export const InfoTitle = styled.div`
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-transform: uppercase;
     font-weight: 600;
     margin-bottom: 10px;
@@ -604,7 +604,7 @@ export const Agendamento = styled.div`
     flex-direction: column;
     background-color: #FFF;
     color: #424242;
-    padding: 40px 0;
+    padding: 60px 0;
     margin: 0 10%;
 `;
 
@@ -627,11 +627,11 @@ export const Button3 = styled.div`
     color: #fff;
     border-radius: 50px;
     white-space: nowrap;
-    padding: 16px 32px;
+    padding: 15px 32px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 1rem;
     margin-top: 20px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);

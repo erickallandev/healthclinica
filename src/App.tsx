@@ -256,7 +256,7 @@ const App = () => {
                     Central de atendimento
                 </C.AtendHeader>
                 <C.AtendBody>
-                    Para qualquer dúvida, tente o nosso canal de atendimento:<br />
+                    Para qualquer dúvida, tente o nosso canal de atendimento:<br /> <br />
                     (84) 2525-2266 | (84) 2834-3838
                 </C.AtendBody>
             </C.CentAtendimento>
