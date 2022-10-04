@@ -14,7 +14,7 @@ export const Home = styled.div`
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 100vh;
+    height: calc(100vh - 70px);
     background-color: #0C5C31;
 `;
 
