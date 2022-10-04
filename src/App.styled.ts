@@ -182,6 +182,7 @@ export const HomeText = styled.div`
 
 export const Button1 = styled.div`
     background-color: #FFF;
+    white-space: nowrap;
     border-radius: 50px;
     padding: 16px 32px;
     display: flex;
@@ -215,10 +216,12 @@ export const ScheduleSquare = styled.div`
     margin: 0 40px;
     margin-top: 50px;
     border-radius: 10px;
+    width: 80%;
 `;
 
 export const ImageAgenda = styled.img`
     width: 80%;
+    height: 200px;
     object-fit: cover;
     object-position: center;
     max-height: 200px;
@@ -257,6 +260,7 @@ export const Button2 = styled.div`
     font-size: 0.8rem;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
     position: relative;
+    white-space: nowrap;
 `;
 
 
@@ -396,8 +400,8 @@ export const Doctor = styled.div`
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    height: 320px;
-    width: 300px;
+    height: 300px;
+    width: 250px;
     background-color: #000;
     margin: 0 40px;
     margin-top: 50px;
@@ -408,8 +412,8 @@ export const DoctorPhoto = styled.img`
 
     object-fit: cover;
     object-position: center;
-    height: 320px;
-    width: 300px;
+    height: 300px;
+    width: 250px;
     opacity: 0.5;
     position: absolute;
     border-radius: 10px;
@@ -622,6 +626,7 @@ export const Button3 = styled.div`
     background-color: #0C5C31;
     color: #fff;
     border-radius: 50px;
+    white-space: nowrap;
     padding: 16px 32px;
     display: flex;
     align-items: center;
