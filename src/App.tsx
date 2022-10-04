@@ -1,7 +1,6 @@
 import * as C from './App.styled';
 import IconLogo from './assets/images/icons/logo_svg.svg';
 import IconMenu from './assets/images/icons/icon_menu.svg';
-import IconArrow from './assets/images/icons/icon_seta.png';
 import Consulta1 from './assets/images/image_primconsulta.jpg';
 import Consulta2 from './assets/images/image_consulta.jpg';
 import Consulta3 from './assets/images/image_exames.jpg';
