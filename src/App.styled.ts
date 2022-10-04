@@ -14,7 +14,7 @@ export const Home = styled.div`
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: calc(100vh - 50px);
+    height: calc(100vh - 18px);
     background-color: #0C5C31;
 `;
 
@@ -50,7 +50,7 @@ export const Content = styled.div`
     position: relative;
     margin-top: 150px;
     margin-bottom: 50px;
-    height: 100vh;
+    flex: 1;
 `;
 
 export const HomeHeader = styled.div`
@@ -92,15 +92,6 @@ export const Button1 = styled.div`
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
 `;
 
-export const IconArrow = styled.div`
-    width: 50px;
-    margin: 0 auto;
-    margin-bottom: 30px;
-    position: relative;
-    filter: drop-shadow(0 0 2px #FFF);
-`;
-
-
 /* Estilizações da área de agenda */
 
 export const Schedule = styled.div`
@@ -109,7 +100,7 @@ export const Schedule = styled.div`
     flex-direction: column;
     width: 100%;
     color: #FFF;
-    margin-bottom: 60px;
+    margin: 60px auto;
 `;
 
 export const ScheduleSquare = styled.div`
