@@ -5,21 +5,8 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    box-sizing: border-box;
-    max-width: 100vw;
-`;
-
-export const Home = styled.div`
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: #0C5C31;
-    height: calc(100vh - 50px);
-    justify-content: space-between;
-    max-width: 100%;
-        @media (min-width: 1024px) {
-
-        }
+    width: 100vw;
+    overflow: hidden;
 `;
 
 export const navbarDesktop = styled.nav`
@@ -98,8 +85,8 @@ export const NavBar = styled.nav`
     justify-content: space-between;
     align-items: center;
     position: relative;
-    padding-top: 20px;
-    padding-bottom: 150px;
+    margin-top: 20px;
+    margin-bottom: 150px;
     width: 85vw;
         @media (min-width: 1024px) {
                 display: none;
@@ -128,6 +115,21 @@ export const IconMenu = styled.div`
 
 `;
 
+/* HOMEPAGE */
+
+export const Home = styled.div`
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0C5C31;
+    height: 100vh;
+    justify-content: space-between;
+    width: 100%;
+        @media (min-width: 1024px) {
+            height: 100vh;
+        }
+`;
+
 export const Image = styled.img`
     width: 100%;
     max-height: 100%;
@@ -139,7 +141,7 @@ export const Content = styled.div`
     justify-content: space-between;
     align-items: center;
     position: relative;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     flex: 1;
 `;
 
@@ -154,7 +156,7 @@ export const HomeHeader = styled.div`
 
 export const ImageHome = styled.img`
     height: 100%;
-    max-width: 100%;
+    width: 100%;
     object-fit: cover;
     position: absolute;
     opacity: 0.3;
@@ -521,7 +523,8 @@ export const FaleConosco = styled.div`
     justify-content: center;
     flex-direction: column;
     background-color: #0C5C31;
-    padding: 60px;
+    padding: 60px 0;
+    width: 100%;
 `;
 
 export const FaleTitle = styled.div`
@@ -537,7 +540,9 @@ export const FaleSubtitle = styled.div`
     color: #FFF;
     font-size: 1rem;
     font-weight: 400;
+    margin: auto 10%;
     margin-bottom: 60px;
+    
 `;
 
 export const InfosContato = styled.div`
@@ -566,11 +571,12 @@ export const Infos = styled.div`
 `;
 
 export const Mapa = styled.div`
-    width: 100%;
+    width: 80%;
     height: 250px;
     background-color: #FFF;
     border-radius: 30px 30px 30px 0;
     margin-top: 20px;
+
 `;
 
 
@@ -584,7 +590,8 @@ export const Agendamento = styled.div`
     flex-direction: column;
     background-color: #FFF;
     color: #424242;
-    padding: 40px;
+    padding: 40px 0;
+    margin: 0 10%;
 `;
 
 export const AgendaTitle = styled.div`
