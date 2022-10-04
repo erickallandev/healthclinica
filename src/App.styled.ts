@@ -245,7 +245,7 @@ export const ScheduleTopics = styled.ul`
     padding: 0;
     margin: 5% 5%;
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 1rem;
     position: relative;
 `;
 
