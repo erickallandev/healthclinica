@@ -14,7 +14,7 @@ export const Home = styled.div`
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: calc(100vh - 70px);
+    height: 100vh;
     background-color: #0C5C31;
 `;
 
@@ -24,7 +24,7 @@ export const NavBar = styled.nav`
     width: calc(100vw - 50px);
     justify-content: space-between;
     align-items: center;
-    position: absolute;
+    position: relative;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
