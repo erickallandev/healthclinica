@@ -87,7 +87,7 @@ export const NavBar = styled.nav`
     margin-top: 20px;
     margin-bottom: 0;
     width: 85%;
-    position: absolute;
+    position: relative;
     top: 0;
         @media (min-width: 1024px) {
                 display: none;
@@ -131,7 +131,6 @@ export const Home = styled.div`
     bottom: 0;
     left: 0;
     right: 0;
-    position: relative;
         @media (min-width: 1024px) {
             height: 100vh;
         }
@@ -144,13 +143,11 @@ export const Image = styled.img`
 export const Content = styled.div`
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     position: relative;
+    justify-content: space-evenly;
     margin-bottom: 50px;
-    height: 60vw;
-    margin-top: 200px;
-    flex: 1;
+    height: 100vh;
 `;
 
 export const HomeHeader = styled.div`
