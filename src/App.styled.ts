@@ -49,8 +49,8 @@ export const Content = styled.div`
     align-items: center;
     position: relative;
     margin-top: 150px;
-    flex:1;
     margin-bottom: 50px;
+    height: 100%;
 `;
 
 export const HomeHeader = styled.div`
@@ -63,7 +63,7 @@ export const HomeHeader = styled.div`
 `;
 
 export const ImageHome = styled.img`
-    height: 100vh;
+    height: 100%;
     max-width: 100%;
     object-fit: cover;
     position: absolute;
