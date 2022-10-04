@@ -6,7 +6,6 @@ export const Container = styled.div`
     align-items: center;
     justify-content: center;
     width: 100vw;
-    overflow-x: hidden;
 `;
 
 export const navbarDesktop = styled.nav`
@@ -86,8 +85,10 @@ export const NavBar = styled.nav`
     align-items: center;
     position: relative;
     margin-top: 20px;
-    margin-bottom: 150px;
-    width: 85vw;
+    margin-bottom: 0;
+    width: 85%;
+    position: absolute;
+    top: 0;
         @media (min-width: 1024px) {
                 display: none;
             }
@@ -123,7 +124,7 @@ export const Home = styled.div`
     flex-direction: column;
     background-color: #0C5C31;
     height: 100vh;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
         @media (min-width: 1024px) {
             height: 100vh;
@@ -132,7 +133,6 @@ export const Home = styled.div`
 
 export const Image = styled.img`
     width: 100%;
-    max-height: 100%;
 `;
 
 export const Content = styled.div`
@@ -142,6 +142,8 @@ export const Content = styled.div`
     align-items: center;
     position: relative;
     margin-bottom: 50px;
+    height: 60vw;
+    margin-top: 200px;
     flex: 1;
 `;
 
@@ -159,6 +161,10 @@ export const ImageHome = styled.img`
     width: 100%;
     object-fit: cover;
     position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     opacity: 0.3;
 `;
 
