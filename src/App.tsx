@@ -38,6 +38,15 @@ import IconSocial3 from './assets/images/icons/icon_instagram.svg';
 import IconSocial4 from './assets/images/icons/icon_facebook.svg';
 import IconSocial5 from './assets/images/icons/icon_behance.svg';
 import IconSocial6 from './assets/images/icons/icon_twitter.svg';
+import IconLocation from './assets/images/icons/icon_location.svg';
+import IconTelephone from './assets/images/icons/icon_telephone.svg';
+import IconBehanceblack from './assets/images/icons/icon_behanceblack.svg';
+import IconFacebookblack from './assets/images/icons/icon_facebookblack.svg';
+import IconInstagramblack from './assets/images/icons/icon_instagramblack.svg';
+import IconLinkedinblack from './assets/images/icons/icon_linkedinblack.svg';
+import IconTwitterblack from './assets/images/icons/icon_twitterblack.svg';
+import IconWhatsappblack from './assets/images/icons/icon_whatsappblack.svg';
+import IconMenuDesktop from './assets/images/icons/logo_desktop.svg';
 
 const App = () => {
     return (
@@ -52,6 +61,61 @@ const App = () => {
                         <C.Image src={IconMenu} />
                     </C.IconMenu>
                 </C.NavBar>
+
+                <C.navbarDesktop>
+                    <C.navBarDesktop1>
+                        <C.navBarDesktop1a>
+                            <C.IconNavbar>
+                                <C.Image src={IconLocation} alt='' />
+                            </C.IconNavbar>
+                            <C.InfoText>
+                                Av. Des. João da Fonseca, 999 - Petrópolis, Natal/RN
+                            </C.InfoText>
+                        </C.navBarDesktop1a>
+                        <C.navBarDesktop1b>
+                            <C.IconNavbar>
+                                <C.Image src={IconTelephone} alt='' />
+                            </C.IconNavbar>
+                            <C.InfoText>
+                                (84) 99594-7364 | (84) 99314-4673
+                            </C.InfoText>
+                        </C.navBarDesktop1b>
+                        <C.navBarDesktop1c>
+                            <C.IconNavbar>
+                                <C.Image src={IconWhatsappblack} alt='' />
+                            </C.IconNavbar>
+                            <C.IconNavbar>
+                                <C.Image src={IconLinkedinblack} alt='' />
+                            </C.IconNavbar>
+                            <C.IconNavbar>
+                                <C.Image src={IconInstagramblack} alt='' />
+                            </C.IconNavbar>
+                            <C.IconNavbar>
+                                <C.Image src={IconFacebookblack} alt='' />
+                            </C.IconNavbar>
+                            <C.IconNavbar>
+                                <C.Image src={IconBehanceblack} alt='' />
+                            </C.IconNavbar>
+                            <C.IconNavbar>
+                                <C.Image src={IconTwitterblack} alt='' />
+                            </C.IconNavbar>
+                        </C.navBarDesktop1c>
+                    </C.navBarDesktop1>
+                    <C.hr />
+                    <C.navBarDesktop2>
+                        <C.LogoDesktop>
+                            <C.Image src={IconMenuDesktop} alt='' />
+                        </C.LogoDesktop>
+                        <C.MenuOpcoes>
+                            <C.MenuOpcao> Início </C.MenuOpcao>
+                            <C.MenuOpcao> Sobre </C.MenuOpcao>
+                            <C.MenuOpcao> Especialidades </C.MenuOpcao>
+                            <C.MenuOpcao> Corpo clínico </C.MenuOpcao>
+                            <C.MenuOpcao> Convênios </C.MenuOpcao>
+                            <C.MenuOpcao> Contato </C.MenuOpcao>
+                        </C.MenuOpcoes>
+                    </C.navBarDesktop2>
+                </C.navbarDesktop>
 
                 <C.Content>
                     <C.HomeHeader>
@@ -552,7 +616,7 @@ const App = () => {
                     <C.hr2 />
                     <C.FooterInfo2>
                         <C.Info2Header>
-                        Endereço
+                            Endereço
                         </C.Info2Header>
                         <C.Info2Text>
                             Av. Des. João da Fonseca, 999 <br />
@@ -561,7 +625,7 @@ const App = () => {
                         <br />
                         <C.Info2Text>
                             <C.Info2Header>
-                            Telefones
+                                Telefones
                             </C.Info2Header>
                             (84) 2850-5328 | (84) 2380-8706 <br />
                             (84) 2169-0515 | (84) 2803-5137
@@ -573,24 +637,24 @@ const App = () => {
                             Redes sociais
                         </C.Info3Header>
                         <C.Info3Icons>
-                        <C.IconMedia>
-                            <C.Image src={IconSocial1} alt='' />
-                        </C.IconMedia>
-                        <C.IconMedia>
-                            <C.Image src={IconSocial2} alt='' />
-                        </C.IconMedia>
-                        <C.IconMedia>
-                            <C.Image src={IconSocial3} alt='' />
-                        </C.IconMedia>
-                        <C.IconMedia>
-                            <C.Image src={IconSocial4} alt='' />
-                        </C.IconMedia>
-                        <C.IconMedia>
-                            <C.Image src={IconSocial5} alt='' />
-                        </C.IconMedia>
-                        <C.IconMedia>
-                            <C.Image src={IconSocial6} alt='' />
-                        </C.IconMedia>
+                            <C.IconMedia>
+                                <C.Image src={IconSocial1} alt='' />
+                            </C.IconMedia>
+                            <C.IconMedia>
+                                <C.Image src={IconSocial2} alt='' />
+                            </C.IconMedia>
+                            <C.IconMedia>
+                                <C.Image src={IconSocial3} alt='' />
+                            </C.IconMedia>
+                            <C.IconMedia>
+                                <C.Image src={IconSocial4} alt='' />
+                            </C.IconMedia>
+                            <C.IconMedia>
+                                <C.Image src={IconSocial5} alt='' />
+                            </C.IconMedia>
+                            <C.IconMedia>
+                                <C.Image src={IconSocial6} alt='' />
+                            </C.IconMedia>
                         </C.Info3Icons>
                     </C.FooterInfo3>
                 </C.FooterInfo>

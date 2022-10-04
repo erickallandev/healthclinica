@@ -11,11 +11,85 @@ export const Container = styled.div`
 
 export const Home = styled.div`
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    height: calc(100vh - 50px);
+    flex-direction: column;
     background-color: #0C5C31;
+    height: calc(100vh - 50px);
+    justify-content: space-between;
+    max-width: 100%;
+        @media (min-width: 1024px) {
+
+        }
+`;
+
+export const navbarDesktop = styled.nav`
+    width: 100vw;
+    margin: 0 80px;
+    background-color: #FFF;
+    display: none;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    color: #424242;
+        @media (min-width: 1024px) {
+            display: flex;
+        }
+`;
+
+export const navBarDesktop1 = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+`;
+
+export const navBarDesktop2 = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+`;
+
+export const navBarDesktop1a = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+`;
+
+export const navBarDesktop1b = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+`;
+
+export const navBarDesktop1c = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 5%;
+
+`;
+
+export const LogoDesktop = styled.div`
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+`;
+
+export const MenuOpcoes = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5%;
+`;
+
+export const MenuOpcao = styled.div`
+    margin: 10px;
 `;
 
 export const NavBar = styled.nav`
@@ -27,6 +101,23 @@ export const NavBar = styled.nav`
     padding-top: 20px;
     padding-bottom: 150px;
     width: 85vw;
+        @media (min-width: 1024px) {
+                display: none;
+            }
+`;
+
+export const IconNavbar = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    margin: 0 5px;
+`;
+
+export const InfoText = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
 `;
 
 export const IconLogo = styled.div`
