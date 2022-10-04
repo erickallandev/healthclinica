@@ -124,8 +124,10 @@ export const Home = styled.div`
     flex-direction: column;
     background-color: #0C5C31;
     height: 100vh;
+    bottom: 10px;   
     justify-content: center;
     width: 100%;
+    bottom: 0;
         @media (min-width: 1024px) {
             height: 100vh;
         }
