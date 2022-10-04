@@ -14,20 +14,19 @@ export const Home = styled.div`
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: calc(100vh - 50px);
+    height: 100vh;
     background-color: #0C5C31;
 `;
 
 export const NavBar = styled.nav`
     display: flex;
     height: 50px;
-    width: calc(100vw - 50px);
     justify-content: space-between;
     align-items: center;
     position: relative;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 150px;
+    width: 85vw;
 `;
 
 export const IconLogo = styled.div`
@@ -40,6 +39,7 @@ export const IconMenu = styled.div`
 
 export const Image = styled.img`
     width: 100%;
+    max-height: 100%;
 `;
 
 export const Content = styled.div`
@@ -48,8 +48,7 @@ export const Content = styled.div`
     justify-content: space-between;
     align-items: center;
     position: relative;
-    margin-top: 150px;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
     flex: 1;
 `;
 
