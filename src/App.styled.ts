@@ -683,6 +683,9 @@ export const FaleTitle = styled.div`
     font-size: 1.5rem;
     font-weight: 500;
     margin-bottom: 20px;
+        @media (min-width: 1024px) {
+            font-size: 2rem;
+        }
 `;
 
 export const FaleSubtitle = styled.div`
@@ -692,6 +695,9 @@ export const FaleSubtitle = styled.div`
     font-weight: 400;
     margin: auto 10%;
     margin-bottom: 60px;
+        @media (min-width: 1024px) {
+            font-size: 1.5rem;
+        }
     
 `;
 
@@ -702,10 +708,18 @@ export const InfosContato = styled.div`
     text-align: center;
     flex-direction: column;
     color: #fff;
+    @media (min-width: 1024px) {
+        flex-direction: row;
+        width: 80%;
+        justify-content: center;
+    }
 `;
 
 export const InfoContato = styled.div`
     margin-bottom: 40px;
+    @media (min-width: 1024px) {
+        flex: 1;
+    }
 `;
 
 export const InfoTitle = styled.div`
@@ -713,10 +727,15 @@ export const InfoTitle = styled.div`
     text-transform: uppercase;
     font-weight: 600;
     margin-bottom: 10px;
+        @media(min-width: 1024px) {
+            font-size: 1.5rem;
+        }
 `;
 
 export const Infos = styled.div`
-
+        @media(min-width: 1024px) {
+            font-size: 1.2rem;
+        }
 `;
 
 export const Mapa = styled.div`
@@ -725,7 +744,9 @@ export const Mapa = styled.div`
     background-color: #FFF;
     border-radius: 30px 30px 30px 0;
     margin-top: 20px;
-
+    @media (min-width: 1024px) {
+        height: 400px;
+    }
 `;
 
 
