@@ -44,7 +44,7 @@ export const MMOptions = styled.div`
     flex-direction: column;
     width: 100%;
     flex: 1;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 `;
 
 export const MMOption = styled.div`
