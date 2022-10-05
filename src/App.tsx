@@ -55,10 +55,10 @@ const App = () => {
                 <C.ImageHome src={BGImage} alt='' />
                 <C.NavBar>
                     <C.IconLogo>
-                        <C.Image src={IconLogo} alt='' />
+                        <C.link href=''><C.Image src={IconLogo} alt='' /></C.link>
                     </C.IconLogo>
                     <C.IconMenu>
-                        <C.Image src={IconMenu} />
+                    <C.link href=''><C.Image src={IconMenu} /></C.link>
                     </C.IconMenu>
                 </C.NavBar>
 
@@ -561,7 +561,7 @@ const App = () => {
                             Whatsapp
                         </C.InfoTitle>
                         <C.Infos>
-                            (84) 99594-7364 | (84) 99314-4673 <br />
+                            <C.link href=''>(84) 99594-7364 </C.link>| <C.link href=''>(84) 99314-4673</C.link> <br />
                             (Clique em uma das opções)
                         </C.Infos>
                     </C.InfoContato>
@@ -666,7 +666,7 @@ const App = () => {
                 <C.hr />
                 <C.FooterRef>
                     Health Clínica 2022 - Todos os direitos reservados <br />
-                    Desenvolvido por EAWebDev 2022
+                    Desenvolvido por <C.link href='https://eawebdev.com'>EAWebDev 2022</C.link>
                 </C.FooterRef>
             </C.Footer>
 

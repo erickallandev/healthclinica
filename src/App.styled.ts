@@ -75,7 +75,20 @@ export const MenuOpcoes = styled.div`
 `;
 
 export const MenuOpcao = styled.div`
-    margin: 10px;
+    cursor: pointer;
+    padding: 5px 20px;
+    border-bottom: 5px solid #FFF;
+    :hover {
+        border-bottom: 5px solid #4C9C71;
+    }
+`;
+
+export const link = styled.a`
+    text-decoration: none;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
 `;
 
 export const NavBar = styled.nav`
@@ -100,6 +113,11 @@ export const IconNavbar = styled.div`
     justify-content: center;
     width: 20px;
     margin: 0 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    :hover {
+        transform: scale(1.2);
+    }
 `;
 
 export const InfoText = styled.div`
@@ -109,11 +127,11 @@ export const InfoText = styled.div`
 `;
 
 export const IconLogo = styled.div`
-
+    cursor: pointer;
 `;
 
 export const IconMenu = styled.div`
-
+    cursor: pointer;
 `;
 
 /* HOMEPAGE */
@@ -221,6 +239,11 @@ export const Button1 = styled.div`
     font-size: 1rem;
     margin: 0 30px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
+    transition: 0.5s;
+    cursor: pointer;
+    :hover {
+                background-color: rgb(200, 200, 200);
+            }
         @media (min-width: 1024px) {
             margin: 0;
             font-size: 1.2rem;
@@ -314,6 +337,11 @@ export const Button2 = styled.div`
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
     position: relative;
     white-space: nowrap;
+    cursor: pointer;
+    transition: 0.5s;
+    :hover {
+                background-color: rgb(200, 200, 200);
+            }
     @media (min-width: 1024px) {
             font-size: 1rem;
         }
@@ -390,19 +418,26 @@ export const EspContent = styled.div`
 `;
 
 export const Espec = styled.div`
-    border: 1px solid #424242;
+    border: 2px solid #FFF;
     border-radius: 30px 30px 30px 0;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 1.2rem;
-    padding: 6px 12px;
+    padding: 16px 32px;
     margin-bottom: 10px;
-    margin: 2px 5px;
+    margin: 5px 5px;
     white-space: nowrap;
+    background-color: #0C5C31;
+    color: #fff;
+    transition: 0.5s;
+    cursor: pointer;
+        :hover {
+            border: 2px solid #4C9C71;
+            background-color: #4C9C71;
+        }
     @media (min-width: 1024px) {
-            padding: 10px 20px;
-            border: 3px solid #424242;
+
         }
 `;
 
@@ -509,7 +544,12 @@ export const Doctors = styled.div`
     justify-content: center;
     align-items: center;
     width: 100%;
-    flex-wrap: wrap;
+    flex-direction: column;
+        @media (min-width: 1024px) {
+            flex-direction: row;
+            flex-wrap: wrap;
+            max-width: 1024px;
+        }
 `;
 
 export const Doctor = styled.div`
@@ -531,12 +571,13 @@ export const DoctorPhoto = styled.img`
     object-position: center;
     height: 300px;
     width: 250px;
-    opacity: 0.5;
+    opacity: 1;
     position: absolute;
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
+    opacity: 0.7;
 `;
 
 export const DoctorName = styled.div`
@@ -793,7 +834,8 @@ export const AgendaSubtitle = styled.div`
 
 export const Button3 = styled.div`
     background-color: #0C5C31;
-    color: #fff;
+    border: 2px solid #0C5C31;
+    color: #FFF;
     border-radius: 50px;
     white-space: nowrap;
     padding: 15px 32px;
@@ -804,6 +846,12 @@ export const Button3 = styled.div`
     font-size: 1rem;
     margin-top: 20px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    transition: 0.5s;
+        :hover {
+                background-color: #4C9C71;
+                border: 2px solid #4C9C71;
+                }
     @media (min-width: 1024px) {
         font-size: 1.2rem;
         margin-top: 50px;
@@ -901,6 +949,11 @@ export const IconMedia = styled.div`
     align-items: center;
     justify-content: center;
     width: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+    :hover {
+        transform: scale(1.2);
+    }
 `;
 
 export const hr = styled.hr`
@@ -924,9 +977,6 @@ export const hr2 = styled.hr`
 `;
 
 export const FooterRef = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-align: center;
     font-size: 0.9rem;
     margin: 50px auto;
