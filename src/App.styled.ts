@@ -125,7 +125,7 @@ export const MenuOpcao = styled.div`
     padding: 5px 20px;
     border-bottom: 5px solid #FFF;
     :hover {
-        border-bottom: 5px solid #4C9C71;
+        border-bottom: 5px solid #424242;
     }
 `;
 
