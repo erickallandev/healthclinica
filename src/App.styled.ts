@@ -291,6 +291,9 @@ export const ScheduleHeader = styled.div`
     font-size: 1rem;
     position: relative;
     text-transform: uppercase;
+        @media (min-width: 1024px) {
+            font-size: 1.2rem;
+        }
 `;
 
 export const ScheduleTopics = styled.ul`
@@ -300,6 +303,9 @@ export const ScheduleTopics = styled.ul`
     text-align: center;
     font-size: 1rem;
     position: relative;
+    @media (min-width: 1024px) {
+            font-size: 1.2rem;
+        }
 `;
 
 export const Button2 = styled.div`
@@ -315,6 +321,9 @@ export const Button2 = styled.div`
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
     position: relative;
     white-space: nowrap;
+    @media (min-width: 1024px) {
+            font-size: 1rem;
+        }
 `;
 
 
@@ -325,6 +334,10 @@ export const Especialidades = styled.div`
     margin: 20px;
     width: 100vw;
     margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 `;
 
 export const EspBody = styled.div`
@@ -332,6 +345,10 @@ export const EspBody = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+        @media (min-width: 1024px) {
+            flex-direction: row;
+            width: calc(100% - 160px);
+        }
 `;
 
 export const EspHeader = styled.div`
@@ -339,6 +356,12 @@ export const EspHeader = styled.div`
     color: #424242;
     font-size: 1.5rem;
     font-weight: 500;
+    @media (min-width: 1024px) {
+        font-size: 2.5rem;
+        text-align: left;
+        width: calc(100% - 100px);
+        margin-left: 100px;
+    }
 `;
 
 export const EspSub = styled.div`
@@ -346,10 +369,22 @@ export const EspSub = styled.div`
     color: #424242;
     font-size: 1.2rem;
     font-weight: 400;
+    @media (min-width: 1024px) {
+        font-size: 2rem;
+        text-align: left;
+        width: calc(100% - 100px);
+        margin-left: 100px;
+        margin-bottom: 10px;
+    }
 `;
 
 export const ListaEspecialidades = styled.div`
     display: flex;
+        @media (min-width: 1024px) {
+            flex: 1;
+            justify-content: center;
+            align-items: center;
+        }
 `;
 
 export const EspContent = styled.div`
@@ -367,6 +402,11 @@ export const Espec = styled.div`
     padding: 6px 12px;
     margin-bottom: 10px;
     margin: 2px 5px;
+    white-space: nowrap;
+    @media (min-width: 1024px) {
+            padding: 10px 20px;
+            border: 3px solid #424242;
+        }
 `;
 
 export const EspImage = styled.div`
@@ -376,8 +416,9 @@ export const EspImage = styled.div`
     width: 80%;
     margin: 30px 0;
         @media (min-width: 1024px) {
-            max-width: 500px;
-            flex-direction: row;
+            min-width: 400px;
+            width: 50%;
+            margin-right: 50px;
         }
 `;
 
