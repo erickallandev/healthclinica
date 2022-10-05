@@ -588,7 +588,9 @@ const App = () => {
                     </C.InfoContato>
                 </C.InfosContato>
 
-                <C.Mapa></C.Mapa>
+                <C.Mapa>
+                <C.Iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3828.7504999645807!2d-35.19839133520899!3d-5.785003466013315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1664983174334!5m2!1spt-BR!2sbr" loading="lazy" ></C.Iframe>
+                </C.Mapa>
             </C.FaleConosco>
 
             <C.Agendamento>
