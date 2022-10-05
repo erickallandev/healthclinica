@@ -1,11 +1,56 @@
 import styled from 'styled-components';
 
+type PropsMenu = {
+    menuOn: boolean;
+}
+
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100vw;
+`;
+
+export const MenuMobile = styled.div(({menuOn}: PropsMenu) => (`
+    width: 100vw;
+    height: 100vh;
+    transition: 0.5s;
+    left: ${menuOn ? '0' : '100vw'};
+    background-color: rgba(76, 156, 113, 0.9);
+    color: #FFF;
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+`));
+
+export const MMCloseButton = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-right: 40px;
+    width: 100%;
+    cursor: pointer;
+`;
+
+export const MMOptions = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 100%;
+    flex: 1;
+    margin-bottom: 50px;
+`;
+
+export const MMOption = styled.div`
+    text-align: center;
+    font-size: 1.5rem;
+    cursor: pointer;
 `;
 
 export const navbarDesktop = styled.nav`
@@ -423,7 +468,7 @@ export const Espec = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 8px 15px;
     margin-bottom: 10px;
     margin: 2px 2px;
@@ -439,6 +484,7 @@ export const Espec = styled.div`
     @media (min-width: 1024px) {
         margin: 5px 5px;
         padding: 16px 32px;
+        font-size: 1.2rem;
         }
 `;
 

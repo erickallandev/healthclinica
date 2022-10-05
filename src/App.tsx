@@ -1,6 +1,7 @@
 import * as C from './App.styled';
 import IconLogo from './assets/images/icons/logo_svg.svg';
 import IconMenu from './assets/images/icons/icon_menu.svg';
+import CloseIcon from './assets/images/icons/close_icon.png';
 import Consulta1 from './assets/images/image_primconsulta.jpg';
 import Consulta2 from './assets/images/image_consulta.jpg';
 import Consulta3 from './assets/images/image_exames.jpg';
@@ -48,17 +49,40 @@ import IconTwitterblack from './assets/images/icons/icon_twitterblack.svg';
 import IconWhatsappblack from './assets/images/icons/icon_whatsappblack.svg';
 import IconMenuDesktop from './assets/images/icons/logo_desktop.svg';
 
+import { useState } from 'react';
+
 const App = () => {
+    const [menuOn, setMenuOn] = useState(false);
+
+    const handleClickMenuButton = () => {
+        menuOn ? setMenuOn(false) : setMenuOn(true);
+    }
+
     return (
         <C.Container>
             <C.Home>
+                <C.MenuMobile menuOn={menuOn} >
+                    <C.MMCloseButton onClick={handleClickMenuButton}>
+                        <C.Icon1>
+                            <C.Image src={CloseIcon} alt='' />
+                        </C.Icon1>
+                    </C.MMCloseButton>
+                    <C.MMOptions>
+                        <C.MMOption>Início</C.MMOption>
+                        <C.MMOption>Sobre</C.MMOption>
+                        <C.MMOption>Especialidades</C.MMOption>
+                        <C.MMOption>Corpo clínico</C.MMOption>
+                        <C.MMOption>Convênios</C.MMOption>
+                        <C.MMOption>Contato</C.MMOption>
+                    </C.MMOptions>
+                </C.MenuMobile>
                 <C.ImageHome src={BGImage} alt='' />
                 <C.NavBar>
                     <C.IconLogo>
                         <C.link href=''><C.Image src={IconLogo} alt='' /></C.link>
                     </C.IconLogo>
-                    <C.IconMenu>
-                    <C.link href=''><C.Image src={IconMenu} /></C.link>
+                    <C.IconMenu onClick={handleClickMenuButton}>
+                        <C.Image src={IconMenu} />
                     </C.IconMenu>
                 </C.NavBar>
 
