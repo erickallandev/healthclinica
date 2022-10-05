@@ -63,7 +63,7 @@ const App = () => {
     return (
         <C.Container>
             <AnchorLink href='#inicio'>
-                <C.ButtonScrollUp>
+                <C.ButtonScrollUp menuOn={menuOn}>
                     <C.Image src={IconSeta} alt='' />
                 </C.ButtonScrollUp>
             </AnchorLink>
@@ -76,9 +76,6 @@ const App = () => {
                     </C.MMCloseButton>
                     <C.MMOptions>
                         <C.MMOption onClick={() => setMenuOn(false)} >
-                            <AnchorLink href='#inicio' >
-                                Início
-                            </AnchorLink>
                         </C.MMOption>
                         <C.MMOption onClick={() => setMenuOn(false)} >
                             <AnchorLink href='#agendarconsulta' >
@@ -162,7 +159,6 @@ const App = () => {
                             <C.Image src={IconMenuDesktop} alt='' />
                         </C.LogoDesktop>
                         <C.MenuOpcoes>
-                            <AnchorLink href='#inicio' ><C.MenuOpcao> Início </C.MenuOpcao></AnchorLink>
                             <AnchorLink href='#agendarconsulta' ><C.MenuOpcao> Agendar consulta </C.MenuOpcao></AnchorLink>
                             <AnchorLink href='#especialidades' ><C.MenuOpcao> Especialidades </C.MenuOpcao></AnchorLink>
                             <AnchorLink href='#corpoclinico' ><C.MenuOpcao> Corpo clínico </C.MenuOpcao></AnchorLink>

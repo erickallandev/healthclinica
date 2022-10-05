@@ -137,7 +137,7 @@ export const link = styled.a`
     cursor: pointer;
 `;
 
-export const ButtonScrollUp = styled.div`
+export const ButtonScrollUp = styled.div(({menuOn}: PropsMenu) => (`
     width: 30px;
     height: 30px;
     background-color: #FFF;
@@ -147,20 +147,18 @@ export const ButtonScrollUp = styled.div`
     bottom: 0;
     right: 0;
     padding: 10px;
-    margin-bottom: 10px;
-    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
     transition: 0.5s;
     cursor: pointer;
-    opacity: 0.7;
+    opacity: ${menuOn ? '0' : '0.7'};
         @media(min-width:1024px) {
-            margin-bottom: 20px;
-            margin-right: 20px;
             :hover{
             opacity: 1;
             transform: scale(1.2);
             }
         }
-`;
+`));
 
 export const NavBar = styled.nav`
     display: flex;
