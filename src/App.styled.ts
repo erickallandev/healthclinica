@@ -235,9 +235,18 @@ export const Schedule = styled.div`
     background-color: #FFF;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
     color: #FFF;
     margin: 60px auto;
+        @media (min-width: 1024px) {
+            flex-direction: row;
+            justify-content: space-between;
+            width: calc(100% - 160px);
+            margin-top: 80px;
+            margin-bottom: 100px;
+        }
 `;
 
 export const ScheduleSquare = styled.div`
@@ -245,16 +254,20 @@ export const ScheduleSquare = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 200px;
+    min-height: 200px;
     background-color: #000;
-    margin: 0 40px;
     margin-top: 50px;
     border-radius: 10px;
-    width: 80%;
+    width: 100%;
+    max-width: 400px;
+        @media (min-width: 1024px) {
+            width: 400px;
+            min-height: 250px;
+        }
 `;
 
 export const ImageAgenda = styled.img`
-    width: 80%;
+    width: 300px;
     height: 200px;
     object-fit: cover;
     object-position: center;
@@ -265,6 +278,12 @@ export const ImageAgenda = styled.img`
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 80%;
+    max-width: 400px;
+    @media (min-width: 1024px) {
+            width: 400px;
+            min-height: 250px;
+        }
     `;
 
 export const ScheduleHeader = styled.div`
@@ -356,6 +375,10 @@ export const EspImage = styled.div`
     justify-content: center;
     width: 80%;
     margin: 30px 0;
+        @media (min-width: 1024px) {
+            max-width: 500px;
+            flex-direction: row;
+        }
 `;
 
 
