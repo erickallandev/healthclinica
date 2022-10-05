@@ -483,6 +483,12 @@ export const CCTitle = styled.div`
     color: #424242;
     font-size: 1.5rem;
     font-weight: 500;
+    @media (min-width: 1024px) {
+        font-size: 2.5rem;
+        text-align: left;
+        width: calc(100% - 100px);
+        margin-left: 100px;
+        }
 `;
 
 export const CCSubtitle = styled.div`
@@ -490,6 +496,13 @@ export const CCSubtitle = styled.div`
     color: #424242;
     font-size: 1.2rem;
     font-weight: 400;
+    @media (min-width: 1024px) {
+        font-size: 2rem;
+        text-align: left;
+        width: calc(100% - 100px);
+        margin-left: 100px;
+        margin-bottom: 10px;
+        }
 `;
 
 export const Doctors = styled.div`
