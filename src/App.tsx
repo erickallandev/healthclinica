@@ -50,6 +50,7 @@ import IconWhatsappblack from './assets/images/icons/icon_whatsappblack.svg';
 import IconMenuDesktop from './assets/images/icons/logo_desktop.svg';
 
 import { useState } from 'react';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const App = () => {
     const [menuOn, setMenuOn] = useState(false);
@@ -68,12 +69,36 @@ const App = () => {
                         </C.Icon1>
                     </C.MMCloseButton>
                     <C.MMOptions>
-                        <C.MMOption>Início</C.MMOption>
-                        <C.MMOption>Sobre</C.MMOption>
-                        <C.MMOption>Especialidades</C.MMOption>
-                        <C.MMOption>Corpo clínico</C.MMOption>
-                        <C.MMOption>Convênios</C.MMOption>
-                        <C.MMOption>Contato</C.MMOption>
+                        <C.MMOption onClick={() => setMenuOn(false)} >
+                            <AnchorLink href='#inicio' >
+                                Início
+                            </AnchorLink>
+                        </C.MMOption>
+                        <C.MMOption onClick={() => setMenuOn(false)} >
+                            <AnchorLink href='#agendarconsulta' >
+                                Agendar consulta
+                            </AnchorLink>
+                        </C.MMOption>
+                        <C.MMOption onClick={() => setMenuOn(false)} >
+                            <AnchorLink href='#especialidades' >
+                                Especialidades
+                            </AnchorLink>
+                        </C.MMOption>
+                        <C.MMOption onClick={() => setMenuOn(false)} >
+                            <AnchorLink href='#corpoclinico' >
+                                Corpo clínico
+                            </AnchorLink>
+                        </C.MMOption>
+                        <C.MMOption onClick={() => setMenuOn(false)} >
+                            <AnchorLink href='#convenios' >
+                                Convênios
+                            </AnchorLink>
+                        </C.MMOption>
+                        <C.MMOption onClick={() => setMenuOn(false)} >
+                            <AnchorLink href='#faleconosco' >
+                                Fale Conosco
+                            </AnchorLink>
+                        </C.MMOption>
                     </C.MMOptions>
                 </C.MenuMobile>
                 <C.ImageHome src={BGImage} alt='' />
@@ -131,12 +156,12 @@ const App = () => {
                             <C.Image src={IconMenuDesktop} alt='' />
                         </C.LogoDesktop>
                         <C.MenuOpcoes>
-                            <C.MenuOpcao> Início </C.MenuOpcao>
-                            <C.MenuOpcao> Sobre </C.MenuOpcao>
-                            <C.MenuOpcao> Especialidades </C.MenuOpcao>
-                            <C.MenuOpcao> Corpo clínico </C.MenuOpcao>
-                            <C.MenuOpcao> Convênios </C.MenuOpcao>
-                            <C.MenuOpcao> Contato </C.MenuOpcao>
+                            <AnchorLink href='#inicio' ><C.MenuOpcao> Início </C.MenuOpcao></AnchorLink>
+                            <AnchorLink href='#agendarconsulta' ><C.MenuOpcao> Agendar consulta </C.MenuOpcao></AnchorLink>
+                            <AnchorLink href='#especialidades' ><C.MenuOpcao> Especialidades </C.MenuOpcao></AnchorLink>
+                            <AnchorLink href='#corpoclinico' ><C.MenuOpcao> Corpo clínico </C.MenuOpcao></AnchorLink>
+                            <AnchorLink href='#convenios' ><C.MenuOpcao> Convênios </C.MenuOpcao></AnchorLink>
+                            <AnchorLink href='#faleconosco' ><C.MenuOpcao> Fale conosco </C.MenuOpcao></AnchorLink>
                         </C.MenuOpcoes>
                     </C.navBarDesktop2>
                 </C.navbarDesktop>
@@ -159,7 +184,7 @@ const App = () => {
                 </C.Content>
             </C.Home>
 
-            <C.Schedule>
+            <C.Schedule id='agendarconsulta'>
                 <C.ScheduleSquare>
                     <C.ImageAgenda src={Consulta1} alt='' />
                     <C.ScheduleHeader>
@@ -205,7 +230,7 @@ const App = () => {
 
 
 
-            <C.Especialidades>
+            <C.Especialidades id='especialidades'>
                 <C.EspHeader>
                     Especialidades
                 </C.EspHeader>
@@ -290,7 +315,7 @@ const App = () => {
 
 
 
-            <C.CorpoClinico>
+            <C.CorpoClinico id='corpoclinico'>
                 <C.CCTitle>
                     Corpo Clínico
                 </C.CCTitle>
@@ -496,7 +521,7 @@ const App = () => {
             </C.CorpoClinico>
 
 
-            <C.Convenios>
+            <C.Convenios id='convenios'>
                 <C.ConvTitle>
                     Convênios
                 </C.ConvTitle>
@@ -563,7 +588,7 @@ const App = () => {
                 </C.ListaConvenios>
             </C.Convenios>
 
-            <C.FaleConosco>
+            <C.FaleConosco id='faleconosco'>
                 <C.FaleTitle>
                     Fale conosco
                 </C.FaleTitle>
@@ -613,7 +638,7 @@ const App = () => {
                 </C.InfosContato>
 
                 <C.Mapa>
-                <C.Iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3828.7504999645807!2d-35.19839133520899!3d-5.785003466013315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1664983174334!5m2!1spt-BR!2sbr" loading="lazy" ></C.Iframe>
+                    <C.Iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3828.7504999645807!2d-35.19839133520899!3d-5.785003466013315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1664983174334!5m2!1spt-BR!2sbr" loading="lazy" ></C.Iframe>
                 </C.Mapa>
             </C.FaleConosco>
 

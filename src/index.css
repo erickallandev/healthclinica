@@ -9,6 +9,11 @@ body {
   overflow-x: hidden;
 }
 
+a, u {
+    text-decoration: none;
+    color: inherit;
+}
+
 html {
     height: 100%;
 }
