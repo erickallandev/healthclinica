@@ -451,6 +451,9 @@ export const AtendHeader = styled.div`
     color: #FFF;
     text-align: center;
     margin-bottom: 10px;
+        @media (min-width: 1024px) {
+            font-size: 2rem;
+        }
 `;
 
 export const AtendBody = styled.div`
@@ -458,6 +461,9 @@ export const AtendBody = styled.div`
     font-size: 1rem;
     color: #fff;
     text-align: center;
+    @media (min-width: 1024px) {
+            font-size: 1.5rem;
+        }
 `;
 
 
