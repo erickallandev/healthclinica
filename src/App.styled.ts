@@ -564,6 +564,12 @@ export const ConvTitle = styled.div`
     color: #424242;
     font-size: 1.5rem;
     font-weight: 500;
+    @media (min-width: 1024px) {
+        font-size: 2.5rem;
+        text-align: left;
+        width: calc(100vw - 100px);
+        margin-left: 100px;
+    }
 `;
 
 export const ConvSubtitle = styled.div`
@@ -572,6 +578,13 @@ export const ConvSubtitle = styled.div`
     font-size: 1.2rem;
     font-weight: 400;
     margin-bottom: 50px;
+    @media (min-width: 1024px) {
+        font-size: 2rem;
+        text-align: left;
+        width: calc(100% - 100px);
+        margin-left: 100px;
+        margin-bottom: 10px;
+    }
 `;
 
 export const Convenios = styled.div`
@@ -587,6 +600,11 @@ export const ListaConvenios = styled.div`
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    @media (min-width: 1024px) {
+        width: calc(100% - 100px);
+        justify-content: space-evenly;
+        margin-top: 20px;
+    }
 `;
 
 export const Convenio = styled.div`
