@@ -424,9 +424,9 @@ export const Espec = styled.div`
     align-items: center;
     justify-content: center;
     font-size: 1.2rem;
-    padding: 16px 32px;
+    padding: 8px 15px;
     margin-bottom: 10px;
-    margin: 5px 5px;
+    margin: 2px 2px;
     white-space: nowrap;
     background-color: #0C5C31;
     color: #fff;
@@ -437,7 +437,8 @@ export const Espec = styled.div`
             background-color: #4C9C71;
         }
     @media (min-width: 1024px) {
-
+        margin: 5px 5px;
+        padding: 16px 32px;
         }
 `;
 
