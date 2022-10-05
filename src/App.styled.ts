@@ -12,7 +12,7 @@ export const Container = styled.div`
     width: 100vw;
 `;
 
-export const MenuMobile = styled.div(({menuOn}: PropsMenu) => (`
+export const MenuMobile = styled.div(({ menuOn }: PropsMenu) => (`
     width: 100vw;
     height: 100vh;
     transition: 0.5s;
@@ -135,6 +135,31 @@ export const link = styled.a`
     margin: 0;
     padding: 0;
     cursor: pointer;
+`;
+
+export const ButtonScrollUp = styled.div`
+    width: 30px;
+    height: 30px;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 30;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+    opacity: 0.7;
+        @media(min-width:1024px) {
+            margin-bottom: 20px;
+            margin-right: 20px;
+            :hover{
+            opacity: 1;
+            transform: scale(1.2);
+            }
+        }
 `;
 
 export const NavBar = styled.nav`

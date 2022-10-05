@@ -1,6 +1,7 @@
 import * as C from './App.styled';
 import IconLogo from './assets/images/icons/logo_svg.svg';
 import IconMenu from './assets/images/icons/icon_menu.svg';
+import IconSeta from './assets/images/icons/icon_seta.png';
 import CloseIcon from './assets/images/icons/close_icon.png';
 import Consulta1 from './assets/images/image_primconsulta.jpg';
 import Consulta2 from './assets/images/image_consulta.jpg';
@@ -61,7 +62,12 @@ const App = () => {
 
     return (
         <C.Container>
-            <C.Home>
+            <AnchorLink href='#inicio'>
+                <C.ButtonScrollUp>
+                    <C.Image src={IconSeta} alt='' />
+                </C.ButtonScrollUp>
+            </AnchorLink>
+            <C.Home id='inicio'>
                 <C.MenuMobile menuOn={menuOn} >
                     <C.MMCloseButton onClick={handleClickMenuButton}>
                         <C.Icon1>
