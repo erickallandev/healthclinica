@@ -240,59 +240,52 @@ export const Schedule = styled.div`
     width: 80%;
     color: #FFF;
     margin: 60px auto;
-        @media (min-width: 1024px) {
-            flex-direction: row;
-            justify-content: space-between;
-            width: calc(100% - 160px);
-            margin-top: 80px;
-            margin-bottom: 100px;
-        }
+    @media(min-width: 1024px) {
+
+    }
 `;
 
 export const ScheduleSquare = styled.div`
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    min-height: 200px;
     background-color: #000;
     margin-top: 50px;
     border-radius: 10px;
-    width: 100%;
-    max-width: 400px;
-        @media (min-width: 1024px) {
-            width: 400px;
+    height: 300px;
+    width: 80vw;
+    @media (min-width: 1024px) {
             min-height: 250px;
+            max-width: 800px;
+            margin-bottom: 50px;
         }
 `;
 
 export const ImageAgenda = styled.img`
-    width: 300px;
-    height: 200px;
     object-fit: cover;
     object-position: center;
-    max-height: 200px;
     opacity: 0.6;
     position: absolute;
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 80%;
-    max-width: 400px;
+    height: 300px;
+    width: 80vw;
     @media (min-width: 1024px) {
-            width: 400px;
+            max-width: 800px;
             min-height: 250px;
         }
     `;
 
 export const ScheduleHeader = styled.div`
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1.2rem;
     position: relative;
     text-transform: uppercase;
         @media (min-width: 1024px) {
-            font-size: 1.2rem;
+            font-size: 2rem;
         }
 `;
 
@@ -338,6 +331,10 @@ export const Especialidades = styled.div`
     align-items: center;
     justify-content: center;
     flex-direction: column;
+        @media(min-width: 1024px) {
+            margin-top: 100px;
+            margin-bottom: 100px;
+        }
 `;
 
 export const EspBody = styled.div`
@@ -415,10 +412,12 @@ export const EspImage = styled.div`
     justify-content: center;
     width: 80%;
     margin: 30px 0;
+    max-width: 500px;
         @media (min-width: 1024px) {
             min-width: 400px;
             width: 50%;
             margin-right: 50px;
+            max-width: 600px;
         }
 `;
 
@@ -468,7 +467,7 @@ export const AtendBody = styled.div`
 
 
 /* Sobre o corpo clínico */
- export const CorpoClinico = styled.div`
+export const CorpoClinico = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
@@ -599,11 +598,12 @@ export const ListaConvenios = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
     @media (min-width: 1024px) {
         width: calc(100% - 100px);
         justify-content: space-evenly;
         margin-top: 20px;
+        flex-direction: row;
     }
 `;
 
@@ -752,7 +752,8 @@ export const Mapa = styled.div`
 export const Iframe = styled.iframe`
     border: 0;
     width: 100%;
-    height: 100%
+    height: 100%;
+    border-radius: 30px 30px 30px 0;
 `;
 
 
@@ -840,7 +841,7 @@ export const FooterInfo1 = styled.div`
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 100%;
+    width: 80%;
         @media (min-width: 1024px) {
             flex: 1
         }
