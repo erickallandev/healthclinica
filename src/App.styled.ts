@@ -769,6 +769,10 @@ export const AgendaTitle = styled.div`
     font-size: 1.5rem;
     font-weight: 500;
     margin-bottom: 20px;
+    @media (min-width: 1024px) {
+        font-size: 2rem;
+        margin-bottom: 50px;
+    }
 `;
 
 export const AgendaSubtitle = styled.div`
@@ -776,6 +780,9 @@ export const AgendaSubtitle = styled.div`
     font-size: 1rem;
     font-weight: 400;
     margin-bottom: 20px;
+    @media (min-width: 1024px) {
+        font-size: 1.2rem;
+    }
 `;
 
 export const Button3 = styled.div`
@@ -791,6 +798,10 @@ export const Button3 = styled.div`
     font-size: 1rem;
     margin-top: 20px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
+    @media (min-width: 1024px) {
+        font-size: 1.2rem;
+        margin-top: 50px;
+    }
 `;
 
 
@@ -813,6 +824,9 @@ export const FooterInfo = styled.div`
     justify-content: center;
     align-items: center;
     margin: 50px 40px;
+    @media (min-width: 1024px) {
+        flex-direction: row;
+    }
 `;
 
 export const FooterInfo1 = styled.div`
@@ -822,6 +836,9 @@ export const FooterInfo1 = styled.div`
     justify-content: center;
     text-align: center;
     width: 100%;
+        @media (min-width: 1024px) {
+            flex: 1
+        }
 `;
 
 export const Info1Text = styled.div`
@@ -835,6 +852,9 @@ export const FooterInfo2 = styled.div`
     justify-content: center;
     text-align: center;
     width: 100%;
+    @media (min-width: 1024px) {
+            flex: 1
+        }
 `;
 
 export const Info2Header = styled.div`
@@ -852,6 +872,9 @@ export const FooterInfo3 = styled.div`
     align-items: center;
     justify-content: center;
     width: 100%;
+    @media (min-width: 1024px) {
+            flex: 1
+        }
 `;
 
 export const Info3Header = styled.div`
@@ -887,6 +910,11 @@ export const hr2 = styled.hr`
     background-color: #0C5C31;
     opacity: 0.3;
     margin: 50px 0;
+    @media (min-width: 1024px) {
+        transform: rotate(90deg);
+        width: 100px;
+        margin: 0;
+    }
 `;
 
 export const FooterRef = styled.div`
